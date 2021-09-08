@@ -23,7 +23,7 @@
 
   "load_predicted_mentions": false,
   "load_elmo": false,
-  "corpus" : "CD2CR",
+  "corpus" : "FCC",
 
   "cd2cr_train" : "data/raw/cd2cr/train.conll",
   "cd2cr_dev" : "data/raw/cd2cr/dev.conll",

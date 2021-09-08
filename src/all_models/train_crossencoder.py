@@ -14,6 +14,8 @@ import _pickle as cPickle
 from graphviz import Graph
 import networkx as nx
 
+import itertools
+
 for pack in os.listdir("src"):
     sys.path.append(os.path.join("src", pack))
 
@@ -257,7 +259,7 @@ def is_cluster_merge(cluster_1, cluster_2, mentions, model, doc_dict):
     if config_dict["oracle"]:
         return True
     score = 0.0
-    sample_size = 20
+    sample_size = 100
     global comparison_set
     if len(cluster_1) > sample_size:
         c_1 = random.sample(cluster_1, sample_size)
@@ -421,12 +423,24 @@ def eval_edges(edges, mentions, model, doc_dict):
     # Find Transitive Closure Clusters
     gold_sets = []
     model_sets = []
+    ids = []
+    model_map = {}
+    gold_map = {}
     for mention in mentions:
+        ids.append(mention.mention_id)
         gold_sets.append(mention.gold_tag)
+        gold_map[mention.mention_id] = mention.gold_tag
         if mention.mention_id in inv_clusters:
+            model_map[mention.mention_id] = inv_clusters[mention.mention_id]
             model_sets.append(inv_clusters[mention.mention_id])
         else:
+            model_map[mention.mention_d] = mention.mention_id
             model_sets.append(mention.mention_id)
+    model_clusters = [[thing[0] for thing in group[1]] for group in itertools.groupby(sorted(zip(ids, model_sets), key=lambda x: x[1]), lambda x: x[1])] 
+    gold_clusters = [[thing[0] for thing in group[1]] for group in itertools.groupby(sorted(zip(ids, gold_sets), key=lambda x: x[1]), lambda x: x[1])]
+    pn, pd = b_cubed(model_clusters, gold_map)
+    rn, rd = b_cubed(gold_clusters, model_map)
+    tqdm.write("Alternate = Recall: {:.6f} Precision: {:.6f}".format(pn/pd, rn/rd))
     p, r, f1 = bcubed(gold_sets, model_sets)
     tqdm.write("Recall: {:.6f} Precision: {:.6f} F1: {:.6f}".format(p, r, f1))
     if best_score == None or f1 > best_score:
@@ -463,7 +477,11 @@ def train_model(train_set, dev_set):
     train_event_pairs, _, _ = structure_dataset(train_set,
                                                 event_encoder,
                                                 events=config_dict["events"],
+<<<<<<< Updated upstream
                                                 k=10,
+=======
+                                                k=15,
+>>>>>>> Stashed changes
                                                 is_train=True)
     dev_event_pairs, dev_pairs, dev_docs = structure_dataset(
         dev_set, event_encoder, events=config_dict["events"], k=5)

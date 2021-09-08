@@ -40,7 +40,10 @@ def generate_records_for_sent(sentence_id, sentences, events, window=3):
     lookforward = min(sentence_id + window, max(sentences.keys())) + 1
     sentences = ([sentences[_id] for _id in range(lookback, lookforward)],
                  sentence_id - lookback)
+    mention_set = set([])
+    coref_set = set([])
     for mention in sentence_mentions:
+        mention_set.add(mention.gold_tag)
         mentions += 1
     for ent in sentence.gold_entity_mentions:
         if ent.mention_type == 'TIM':
@@ -50,12 +53,17 @@ def generate_records_for_sent(sentence_id, sentences, events, window=3):
     for c_sentence in sentences[0]:
         if c_sentence == sentence:
             continue
+        coref_mentions = c_sentence.gold_event_mentions if events else c_sentence.gold_entity_mentions
+        for ment in coref_mentions:
+            if ment.gold_tag in mention_set:
+                coref_set.add(ment.gold_tag)
         for ent in c_sentence.gold_entity_mentions:
             if ent.mention_type == 'TIM':
                 out_sent_times += 1
             elif ent.mention_type == 'LOC':
                 out_sent_locs += 1
-    return mentions, in_sent_times, in_sent_locs, out_sent_times, out_sent_locs
+    return mentions, in_sent_times, in_sent_locs, out_sent_times, out_sent_locs, len(
+        coref_set), len(mention_set) - len(coref_set)
 
 
 def describe_dataset(data_set, events=True):
@@ -71,10 +79,21 @@ def describe_dataset(data_set, events=True):
     with_both_loc = 0
     with_no_time = 0
     with_no_loc = 0
+    added_corefs = 0
+    no_corefs = 0
+    coref_dict = {}
     for doc in docs:
         sentences = doc.get_sentences()
         for sentence_id in sentences:
-            mentions, in_sent_times, in_sent_locs, out_sent_times, out_sent_locs = generate_records_for_sent(
+            coref_mentions = sentences[
+                sentence_id].gold_event_mentions if events else sentences[
+                    sentence_id].gold_entity_mentions
+            for ment in coref_mentions:
+                if ment.gold_tag not in coref_dict:
+                    coref_dict[ment.gold_tag] = 1
+                else:
+                    coref_dict[ment.gold_tag] = coref_dict[ment.gold_tag] + 1
+            mentions, in_sent_times, in_sent_locs, out_sent_times, out_sent_locs, out_sent_corefs, no_corefs_sent = generate_records_for_sent(
                 sentence_id, sentences, events)
             if in_sent_times > 0 and out_sent_times > 0:
                 with_both_time += mentions
@@ -92,6 +111,8 @@ def describe_dataset(data_set, events=True):
                 with_out_sent_loc += mentions
             else:
                 with_no_loc += mentions
+            added_corefs += out_sent_corefs
+            no_corefs += no_corefs_sent
     return {
         "in_time": with_in_sent_time,
         "in_loc": with_in_sent_loc,
@@ -100,7 +121,11 @@ def describe_dataset(data_set, events=True):
         "both_time": with_both_time,
         "both_loc": with_both_loc,
         "no_time": with_no_time,
-        "no_loc": with_no_loc
+        "no_loc": with_no_loc,
+        "added_corefs": added_corefs,
+        "no_corefs": no_corefs,
+        "num_links":
+        sum([(num * (num - 1)) // 2 for num in coref_dict.values()])
     }
 
 

@@ -188,7 +188,9 @@ def nn_generate_pairs(data, model, k=10, events=True, remove_singletons=False):
 
 
 def nn_eval(eval_data, model, k=5):
-    vectors, labels, _ = build_mention_reps(dataset_to_docs(eval_data), model)
+    vectors, labels, _ = build_mention_reps(dataset_to_docs(eval_data),
+                                            model,
+                                            events=False)
     index = faiss.IndexFlatIP(1536)
     index.add(vectors)
     # Add 1 since the first will be identity
