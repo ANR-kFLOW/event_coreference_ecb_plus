@@ -1,0 +1,4740 @@
+cluster #1
+['said_ACT17720529389188941']
+
+cluster #2
+['confirmed_ACT17720542426126151']
+
+cluster #3
+['taken_Singleton_ACT_48_36_3ecb']
+
+cluster #4
+['investigation_Singleton_ACT_41_36_3ecb']
+
+cluster #5
+['reported_Singleton_ACT_26_36_4ecb']
+
+cluster #6
+['violating_Singleton_ACT_20_36_4ecb']
+
+cluster #7
+['citing_Singleton_ACT_22_36_4ecb']
+
+cluster #8
+['little-used_Singleton_ACT_28_36_4ecb']
+
+cluster #9
+['incident_Singleton_ACT_51_36_6ecb']
+
+cluster #10
+['unmarked_Singleton_ACT_53_36_6ecb']
+
+cluster #11
+['ARRESTS_ACT17642853147528564']
+
+cluster #12
+['MAKE_Singleton_ACT_53_36_7ecb']
+
+cluster #13
+['ARRESTED_ACT17642853147528564']
+
+cluster #14
+['SAYING_ACT17720542426126151']
+
+cluster #15
+['STATEMENT_Singleton_ACT_39_36_7ecb']
+
+cluster #16
+['CHARGES_ACT17642760725664640']
+
+cluster #17
+['surrender_Singleton_ACT_15_36_8ecb']
+
+cluster #18
+['ordered_Singleton_ACT_14_36_8ecb']
+
+cluster #19
+['ties_Singleton_ACT_22_36_8ecb']
+
+cluster #20
+['destroyed_ACT17739090957216401']
+
+cluster #21
+['killed_ACT27405482739518533']
+
+cluster #22
+['earthquake_ACT17733038959406609']
+
+cluster #23
+['tremor_ACT17733038959406609']
+
+cluster #24
+['shake_ACT17733051718164355']
+
+cluster #25
+['hit_ACT17733051718164355']
+
+cluster #26
+['injured_ACT17739076484289185']
+
+cluster #27
+['alert_INTRA_UNK_35436_37_1ecb']
+
+cluster #28
+['said_ACT17733151360935227']
+
+cluster #29
+['quake_ACT17733038959406609']
+
+cluster #30
+['struck_ACT17733051718164355']
+
+cluster #31
+['according to_Singleton_ACT_86_37_1ecb']
+
+cluster #32
+['temblors_Singleton_ACT_75_37_1ecb']
+
+cluster #33
+['destroyed_ACT17739090957216401']
+
+cluster #34
+['killed_ACT27405482739518533']
+
+cluster #35
+['injured_ACT17739076484289185']
+
+cluster #36
+['rattled_ACT17733051718164355']
+
+cluster #37
+['quake_Singleton_ACT_70_37_2ecb']
+
+cluster #38
+['earthquake_ACT17733038959406609']
+
+cluster #39
+['said_ACT17733151360935227']
+
+cluster #40
+['killed_ACT17645460572486146']
+
+cluster #41
+['levelled_ACT17739090957216401']
+
+cluster #42
+['hit_ACT17733051718164355']
+
+cluster #43
+['7.5_ACT17644561168351204']
+
+cluster #44
+['7.6_ACT17644550339744276']
+
+cluster #45
+['quakes_ACT17644429303158159']
+
+cluster #46
+['series_Singleton_ACT_96_37_2ecb']
+
+cluster #47
+['quake_ACT17733038959406609']
+
+cluster #48
+['tremors_Singleton_ACT_57_37_2ecb']
+
+cluster #49
+['struck_ACT17739066576759881']
+
+cluster #50
+['quake_ACT17733038959406609']
+
+cluster #51
+['hit_ACT17733051718164355']
+
+cluster #52
+['killed_ACT17645460572486146']
+
+cluster #53
+['flooded_Singleton_ACT_44_37_3ecb']
+
+cluster #54
+['flattened_ACT17644590827896353']
+
+cluster #55
+['earthquakes_ACT17644429303158159']
+
+cluster #56
+['hundreds of aftershocks_Singleton_ACT_62_37_3ecb']
+
+cluster #57
+['7.6_ACT17644550339744276']
+
+cluster #58
+['warning_Singleton_ACT_48_37_3ecb']
+
+cluster #59
+['tsunami_Singleton_ACT_49_37_3ecb']
+
+cluster #60
+['arrive_Singleton_ACT_46_37_3ecb']
+
+cluster #61
+['prompting_Singleton_ACT_47_37_3ecb']
+
+cluster #62
+['7.5 magnitude_ACT17644561168351204']
+
+cluster #63
+['started_Singleton_ACT_77_37_3ecb']
+
+cluster #64
+['continued_Singleton_ACT_76_37_3ecb']
+
+cluster #65
+['hit_ACT17739066576759881']
+
+cluster #66
+['rattle_Singleton_ACT_71_37_3ecb']
+
+cluster #67
+['cutting_Singleton_ACT_70_37_3ecb']
+
+cluster #68
+['aid_Singleton_ACT_50_37_3ecb']
+
+cluster #69
+['quakes_ACT17644429303158159']
+
+cluster #70
+['killed_ACT17645460572486146']
+
+cluster #71
+['rekindled_Singleton_ACT_63_37_3ecb']
+
+cluster #72
+['hit_Singleton_ACT_64_37_3ecb']
+
+cluster #73
+['said_Singleton_ACT_65_37_3ecb']
+
+cluster #74
+['injured_ACT27406789281480589']
+
+cluster #75
+['earthquakes_ACT17644429303158159']
+
+cluster #76
+['quakes_Singleton_ACT_57_37_3ecb']
+
+cluster #77
+['memories_Singleton_ACT_56_37_3ecb']
+
+cluster #78
+['killed_ACT17645460572486146']
+
+cluster #79
+['injured_ACT27406789281480589']
+
+cluster #80
+['which_ACT17644429303158159']
+
+cluster #81
+['tsunamis_Singleton_ACT_45_37_4ecb']
+
+cluster #82
+['quakes_ACT17644429303158159']
+
+cluster #83
+['sent_Singleton_ACT_59_37_4ecb']
+
+cluster #84
+['crushed_Singleton_ACT_62_37_4ecb']
+
+cluster #85
+['collapsed_Singleton_ACT_63_37_4ecb']
+
+cluster #86
+['said_Singleton_ACT_68_37_4ecb']
+
+cluster #87
+['killed_ACT17645460572486146']
+
+cluster #88
+['taking_Singleton_ACT_26_37_5ecb']
+
+cluster #89
+['shelters_Singleton_ACT_27_37_5ecb']
+
+cluster #90
+['destroyed_ACT17644590827896353']
+
+cluster #91
+['quakes_ACT17644429303158159']
+
+cluster #92
+['injured_ACT27406789281480589']
+
+cluster #93
+['led_Singleton_ACT_31_37_5ecb']
+
+cluster #94
+['killed_ACT17645460572486146']
+
+cluster #95
+['rocked_Singleton_ACT_13_37_6ecb']
+
+cluster #96
+['earthquakes_ACT17644429303158159']
+
+cluster #97
+['killing_ACT17645460572486146']
+
+cluster #98
+['destroying_ACT17644590827896353']
+
+cluster #99
+['injuring_ACT27406789281480589']
+
+cluster #100
+['triggered_Singleton_ACT_27_37_7ecb']
+
+cluster #101
+['killed_ACT17645460572486146']
+
+cluster #102
+['tsunami_ACT17649011248993334']
+
+cluster #103
+['disaster_ACT17728473838134834']
+
+cluster #104
+['fears_Singleton_ACT_16_37_7ecb']
+
+cluster #105
+['recovering_Singleton_ACT_19_37_7ecb']
+
+cluster #106
+['injured_ACT27406789281480589']
+
+cluster #107
+['earthquakes_ACT17644429303158159']
+
+cluster #108
+['according to_ACT17741250895451249']
+
+cluster #109
+['struck_ACT17744333079509111']
+
+cluster #110
+['earthquake_ACT17741200229701266']
+
+cluster #111
+['struck_ACT17744333079509111']
+
+cluster #112
+['had_Singleton_ACT_31_38_1ecb']
+
+cluster #113
+['earthquake_ACT17741200229701266']
+
+cluster #114
+['according to_ACT17741250895451249']
+
+cluster #115
+['struck_ACT17744348219727110']
+
+cluster #116
+['according to_ACT17741356625630345']
+
+cluster #117
+['earthquake_ACT17741293339495179']
+
+cluster #118
+['earthquake_ACT17741293339495179']
+
+cluster #119
+['according to_ACT17741356625630345']
+
+cluster #120
+['struck_ACT17744348219727110']
+
+cluster #121
+['had_Singleton_ACT_38_38_1ecb']
+
+cluster #122
+['flurry_Singleton_ACT_31_38_2ecb']
+
+cluster #123
+['earthquake_ACT17741200229701266']
+
+cluster #124
+['largest_ACT17741200229701266']
+
+cluster #125
+['shook_ACT17744333079509111']
+
+cluster #126
+['according to_ACT17741250895451249']
+
+cluster #127
+['provide_Singleton_ACT_39_38_2ecb']
+
+cluster #128
+['harnessed_Singleton_ACT_38_38_2ecb']
+
+cluster #129
+['occurred_ACT17744333079509111']
+
+cluster #130
+['temblor_ACT17741200229701266']
+
+cluster #131
+['geothermal forces_Singleton_ACT_35_38_2ecb']
+
+cluster #132
+['quake_ACT17741200229701266']
+
+cluster #133
+['earthquake_ACT17741200229701266']
+
+cluster #134
+['rated_Singleton_ACT_13_38_3ecb']
+
+cluster #135
+['recorded_ACT17741215340257842']
+
+cluster #136
+['according to_ACT17741250895451249']
+
+cluster #137
+['injuries_Singleton_ACT_20_38_4ecb']
+
+cluster #138
+['damage_Singleton_ACT_21_38_4ecb']
+
+cluster #139
+['earthquake_ACT17741200229701266']
+
+cluster #140
+['reports_Singleton_ACT_19_38_4ecb']
+
+cluster #141
+['struck_ACT17744333079509111']
+
+cluster #142
+['says_ACT17741250895451249']
+
+cluster #143
+['centered_Singleton_ACT_27_38_4ecb']
+
+cluster #144
+['temblor_ACT17741200229701266']
+
+cluster #145
+['task_Singleton_ACT_29_39_10ecb']
+
+cluster #146
+['has_Singleton_ACT_38_39_10ecb']
+
+cluster #147
+['leave_Singleton_ACT_30_39_10ecb']
+
+cluster #148
+['come to terms_Singleton_ACT_37_39_10ecb']
+
+cluster #149
+['play_ACT17752034142154320']
+
+cluster #150
+['named_ACT17745451267577520']
+
+cluster #151
+['play_ACT17752034142154320']
+
+cluster #152
+['announced_ACT17745451267577520']
+
+cluster #153
+['handed the keys_ACT17745437118491610']
+
+cluster #154
+['replacing_ACT17745039606328148']
+
+cluster #155
+['steps down_ACT17751507551065641']
+
+cluster #156
+['take up_ACT17745039606328148']
+
+cluster #157
+['has_Singleton_ACT_28_39_13ecb']
+
+cluster #158
+['credits_Singleton_ACT_34_39_13ecb']
+
+cluster #159
+['learned_Singleton_ACT_31_39_14ecb']
+
+cluster #160
+['leaves_ACT17751507551065641']
+
+cluster #161
+['play_ACT17752034142154320']
+
+cluster #162
+['take up_ACT17752034142154320']
+
+cluster #163
+['steering_Singleton_ACT_35_39_14ecb']
+
+cluster #164
+['saving_Singleton_ACT_34_39_14ecb']
+
+cluster #165
+['returns_Singleton_ACT_36_39_14ecb']
+
+cluster #166
+['says_Singleton_ACT_12_39_1ecb']
+
+cluster #167
+['take over_ACT17745039606328148']
+
+cluster #168
+['stepping into_ACT17745437118491610']
+
+cluster #169
+['takes a look_Singleton_ACT_20_39_2ecb']
+
+cluster #170
+['portrayed_Singleton_ACT_19_39_2ecb']
+
+cluster #171
+['handing over_ACT17751507551065641']
+
+cluster #172
+['voted_Singleton_ACT_33_39_3ecb']
+
+cluster #173
+['stepped into_ACT17745437118491610']
+
+cluster #174
+['went_Singleton_ACT_10_39_4ecb']
+
+cluster #175
+['become_INTRA_UNK_35671_39_5ecb']
+
+cluster #176
+['played_Singleton_ACT_20_39_5ecb']
+
+cluster #177
+['winning_ACT17745437118491610']
+
+cluster #178
+['casting_ACT17745437118491610']
+
+cluster #179
+['It_ACT17745437118491610']
+
+cluster #180
+['travel_Singleton_ACT_29_39_6ecb']
+
+cluster #181
+['making_Singleton_ACT_28_39_6ecb']
+
+cluster #182
+['take over_ACT17745039606328148']
+
+cluster #183
+['debut_ACT17752034142154320']
+
+cluster #184
+['make_Singleton_ACT_43_39_6ecb']
+
+cluster #185
+['replacing_ACT17745039606328148']
+
+cluster #186
+['leaves_ACT17745039606328148']
+
+cluster #187
+['took surprise_Singleton_ACT_11_39_7ecb']
+
+cluster #188
+['it_ACT17745451267577520']
+
+cluster #189
+['accompany_Singleton_ACT_20_39_8ecb']
+
+cluster #190
+['speculation_Singleton_ACT_17_39_8ecb']
+
+cluster #191
+['mounted_Singleton_ACT_16_39_8ecb']
+
+cluster #192
+['time-travelling_Singleton_ACT_19_39_8ecb']
+
+cluster #193
+['adventures_Singleton_ACT_18_39_8ecb']
+
+cluster #194
+['named_ACT17745451267577520']
+
+cluster #195
+['cast_ACT17745437118491610']
+
+cluster #196
+['wondered_Singleton_ACT_17_39_9ecb']
+
+cluster #197
+['chosen_ACT17745437118491610']
+
+cluster #198
+['unknown_NEG17745325286989308']
+
+cluster #199
+['keynote address_Singleton_ACT_27_40_10ecb']
+
+cluster #200
+['contain_Singleton_ACT_20_40_10ecb']
+
+cluster #201
+['announcements_Singleton_ACT_21_40_10ecb']
+
+cluster #202
+['hoped_Singleton_ACT_22_40_10ecb']
+
+cluster #203
+['given_ACT17764340317374314']
+
+cluster #204
+['revamp_ACT18091688366575792']
+
+cluster #205
+['introduced_Singleton_ACT_15_40_1ecb']
+
+cluster #206
+['took the wraps off_ACT17764340317374314']
+
+cluster #207
+['updated_ACT18091688366575792']
+
+cluster #208
+['speculation_Singleton_ACT_14_40_1ecb']
+
+cluster #209
+['refresh_ACT18091688366575792']
+
+cluster #210
+['removable_Singleton_ACT_20_40_2ecb']
+
+cluster #211
+['offer_Singleton_ACT_16_40_2ecb']
+
+cluster #212
+['operation_Singleton_ACT_19_40_2ecb']
+
+cluster #213
+['said_ACT18091715777007442']
+
+cluster #214
+['announced_ACT17764340317374314']
+
+cluster #215
+['battery life_ACT26539341111624425']
+
+cluster #216
+['graphics capabilities_Singleton_ACT_26_40_3ecb']
+
+cluster #217
+['refresh_ACT18091688366575792']
+
+cluster #218
+['giving_Singleton_ACT_23_40_3ecb']
+
+cluster #219
+['update_ACT18091688366575792']
+
+cluster #220
+['brought into view_ACT17764340317374314']
+
+cluster #221
+['announcement_Singleton_ACT_15_40_5ecb']
+
+cluster #222
+['Built_Singleton_ACT_19_40_5ecb']
+
+cluster #223
+['launched_ACT17764340317374314']
+
+cluster #224
+['held_ACT18091760728684282']
+
+cluster #225
+['claims_Singleton_ACT_22_40_7ecb']
+
+cluster #226
+['said_ACT18091715777007442']
+
+cluster #227
+['use_Singleton_ACT_31_40_7ecb']
+
+cluster #228
+['built-in_Singleton_ACT_30_40_7ecb']
+
+cluster #229
+['deliver_Singleton_ACT_29_40_7ecb']
+
+cluster #230
+['reports_ACT18091715777007442']
+
+cluster #231
+['have_Singleton_ACT_12_40_8ecb']
+
+cluster #232
+['upgrade_ACT18091688366575792']
+
+cluster #233
+['battery life_ACT26539341111624425']
+
+cluster #234
+['announced_ACT17764340317374314']
+
+cluster #235
+['used_Singleton_ACT_66_41_1ecb']
+
+cluster #236
+['assault_Singleton_ACT_48_41_1ecb']
+
+cluster #237
+['killed_ACT17765469814751163']
+
+cluster #238
+['toll_Singleton_ACT_74_41_1ecb']
+
+cluster #239
+['bombing_ACT17765459464845898']
+
+cluster #240
+['exacted_Singleton_ACT_53_41_1ecb']
+
+cluster #241
+['fighting_Singleton_ACT_67_41_1ecb']
+
+cluster #242
+['campaign_Singleton_ACT_69_41_1ecb']
+
+cluster #243
+['fled_Singleton_ACT_73_41_1ecb']
+
+cluster #244
+['died_ACT17765469814751163']
+
+cluster #245
+['loss of life_Singleton_ACT_54_41_1ecb']
+
+cluster #246
+['packed_Singleton_ACT_56_41_1ecb']
+
+cluster #247
+['hit_ACT17765459464845898']
+
+cluster #248
+['inside_NEG17765441816309208']
+
+cluster #249
+['attacked_ACT17765459464845898']
+
+cluster #250
+['says_ACT17765489726495224']
+
+cluster #251
+['leaving dead_ACT17765469814751163']
+
+cluster #252
+['bombed_ACT17765459464845898']
+
+cluster #253
+['claims_ACT17772387402419554']
+
+cluster #254
+['denied_NEG17772367340938838']
+
+cluster #255
+['attack_ACT17765459464845898']
+
+cluster #256
+['told_Singleton_ACT_82_41_4ecb']
+
+cluster #257
+['established_Singleton_ACT_81_41_4ecb']
+
+cluster #258
+['doubt_Singleton_ACT_84_41_4ecb']
+
+cluster #259
+['war_ACT18158817843787917']
+
+cluster #260
+['shelter_Singleton_ACT_98_41_4ecb']
+
+cluster #261
+['killed_ACT17765469814751163']
+
+cluster #262
+['used_NEG17765441816309208']
+
+cluster #263
+['seeking_INTRA_UNK_35032_41_4ecb']
+
+cluster #264
+['struggled_Singleton_ACT_66_41_4ecb']
+
+cluster #265
+['Speaking_Singleton_ACT_105_41_4ecb']
+
+cluster #266
+['injuries_Singleton_ACT_103_41_4ecb']
+
+cluster #267
+['attack_ACT17765459464845898']
+
+cluster #268
+['left_Singleton_ACT_102_41_4ecb']
+
+cluster #269
+['remain_Singleton_ACT_107_41_4ecb']
+
+cluster #270
+['anger_Singleton_ACT_104_41_4ecb']
+
+cluster #271
+['contain_Singleton_ACT_96_41_4ecb']
+
+cluster #272
+['attack_ACT17765459464845898']
+
+cluster #273
+['came_Singleton_ACT_114_41_4ecb']
+
+cluster #274
+['using_INTRA_UNK_35032_41_4ecb']
+
+cluster #275
+['intensifying_Singleton_ACT_122_41_4ecb']
+
+cluster #276
+['caused_Singleton_ACT_123_41_4ecb']
+
+cluster #277
+['reach_Singleton_ACT_125_41_4ecb']
+
+cluster #278
+['shock_Singleton_ACT_126_41_4ecb']
+
+cluster #279
+['ceasefire_Singleton_ACT_127_41_4ecb']
+
+cluster #280
+['attack_ACT17765459464845898']
+
+cluster #281
+['pressure_Singleton_ACT_120_41_4ecb']
+
+cluster #282
+['according to_Singleton_ACT_61_41_5ecb']
+
+cluster #283
+['landed_ACT17765459464845898']
+
+cluster #284
+['injured_Singleton_ACT_59_41_5ecb']
+
+cluster #285
+['killed_ACT17765469814751163']
+
+cluster #286
+['killed_ACT17765469814751163']
+
+cluster #287
+['obtain_Singleton_ACT_83_41_6ecb']
+
+cluster #288
+['destroying_Singleton_ACT_86_41_6ecb']
+
+cluster #289
+['warning_Singleton_ACT_93_41_6ecb']
+
+cluster #290
+['mounting_Singleton_ACT_92_41_6ecb']
+
+cluster #291
+['attack_ACT17765459464845898']
+
+cluster #292
+['ceasefire_Singleton_ACT_58_41_6ecb']
+
+cluster #293
+['Pressure_Singleton_ACT_57_41_6ecb']
+
+cluster #294
+['strike_ACT17765459464845898']
+
+cluster #295
+['attack_ACT17765459464845898']
+
+cluster #296
+['wounded_Singleton_ACT_79_41_6ecb']
+
+cluster #297
+['bombing_ACT17765459464845898']
+
+cluster #298
+['it_ACT17765459464845898']
+
+cluster #299
+['condemnation_Singleton_ACT_77_41_6ecb']
+
+cluster #300
+['drawn_Singleton_ACT_94_41_6ecb']
+
+cluster #301
+['calling_Singleton_ACT_78_41_6ecb']
+
+cluster #302
+['hit_Singleton_ACT_64_41_6ecb']
+
+cluster #303
+['violence_Singleton_ACT_75_41_6ecb']
+
+cluster #304
+['said_Singleton_ACT_74_41_6ecb']
+
+cluster #305
+['condemn_Singleton_ACT_73_41_6ecb']
+
+cluster #306
+['think_Singleton_ACT_72_41_6ecb']
+
+cluster #307
+['sheltering_Singleton_ACT_71_41_6ecb']
+
+cluster #308
+['attack_ACT17765459464845898']
+
+cluster #309
+['crisis_Singleton_ACT_67_41_7ecb']
+
+cluster #310
+['mortar strike_ACT17765459464845898']
+
+cluster #311
+['end_Singleton_ACT_81_41_7ecb']
+
+cluster #312
+['killed_ACT17765469814751163']
+
+cluster #313
+['met_Singleton_ACT_85_41_7ecb']
+
+cluster #314
+['discuss_Singleton_ACT_82_41_7ecb']
+
+cluster #315
+['sheltering_Singleton_ACT_78_41_7ecb']
+
+cluster #316
+['brought_Singleton_ACT_79_41_7ecb']
+
+cluster #317
+['responded_Singleton_ACT_88_41_7ecb']
+
+cluster #318
+['hit_ACT17765459464845898']
+
+cluster #319
+['included_Singleton_ACT_71_41_7ecb']
+
+cluster #320
+['mortar attack_INTRA_UNK_35173_41_7ecb']
+
+cluster #321
+['mortar strike_ACT17765459464845898']
+
+cluster #322
+['attack_ACT17765459464845898']
+
+cluster #323
+['run_Singleton_ACT_96_41_7ecb']
+
+cluster #324
+['killed_ACT17765469814751163']
+
+cluster #325
+['offensive_Singleton_ACT_72_41_8ecb']
+
+cluster #326
+['sheltering_INTRA_UNK_35178_41_8ecb']
+
+cluster #327
+['exploded_ACT17765459464845898']
+
+cluster #328
+['increased_Singleton_ACT_50_41_8ecb']
+
+cluster #329
+['reports_Singleton_ACT_53_41_8ecb']
+
+cluster #330
+['death toll_Singleton_ACT_52_41_8ecb']
+
+cluster #331
+['reports_Singleton_ACT_68_41_8ecb']
+
+cluster #332
+['spraying_Singleton_ACT_66_41_8ecb']
+
+cluster #333
+['according to_Singleton_ACT_67_41_8ecb']
+
+cluster #334
+['struck_ACT17765459464845898']
+
+cluster #335
+['rushed_Singleton_ACT_100_41_8ecb']
+
+cluster #336
+['said_Singleton_ACT_99_41_8ecb']
+
+cluster #337
+['attacks_ACT17765459464845898']
+
+cluster #338
+['fired_INTRA_UNK_35215_41_9ecb']
+
+cluster #339
+['suffered_Singleton_ACT_65_41_9ecb']
+
+cluster #340
+['attack_ACT17765459464845898']
+
+cluster #341
+['war_ACT18158817843787917']
+
+cluster #342
+['claims_ACT17772387402419554']
+
+cluster #343
+['disputed_NEG17772367340938838']
+
+cluster #344
+['according to_ACT17772426587895562']
+
+cluster #345
+['hit_ACT17765459464845898']
+
+cluster #346
+['attack_ACT17765459464845898']
+
+cluster #347
+['explain_Singleton_ACT_51_41_9ecb']
+
+cluster #348
+['saying_ACT17772387402419554']
+
+cluster #349
+['fired on_Singleton_ACT_53_41_9ecb']
+
+cluster #350
+['moved_Singleton_ACT_52_41_9ecb']
+
+cluster #351
+['sitting_Singleton_ACT_40_41_9ecb']
+
+cluster #352
+['hit_ACT17765459464845898']
+
+cluster #353
+['launch_ACT17773055657381125']
+
+cluster #354
+['announce_ACT17773081680210382']
+
+cluster #355
+['introduce_ACT17773055657381125']
+
+cluster #356
+['rumors_ACT18177497208149058']
+
+cluster #357
+['confirmed_ACT17773081680210382']
+
+cluster #358
+['has_Singleton_ACT_13_42_12ecb']
+
+cluster #359
+['floating_Singleton_ACT_15_42_12ecb']
+
+cluster #360
+['coming_ACT17773055657381125']
+
+cluster #361
+['Rumors_ACT18177497208149058']
+
+cluster #362
+['knew_Singleton_ACT_16_42_12ecb']
+
+cluster #363
+['it_ACT17773055657381125']
+
+cluster #364
+['gone official_ACT17773081680210382']
+
+cluster #365
+['seen_Singleton_ACT_21_42_13ecb']
+
+cluster #366
+['bolstering_ACT18164623333887064']
+
+cluster #367
+['picking up_ACT17773055657381125']
+
+cluster #368
+['plans_Singleton_ACT_10_42_2ecb']
+
+cluster #369
+['introduction_ACT17773055657381125']
+
+cluster #370
+['reported_Singleton_ACT_21_42_3ecb']
+
+cluster #371
+['announcement_ACT17773081680210382']
+
+cluster #372
+['rumors_ACT18177497208149058']
+
+cluster #373
+['go ahead_Singleton_ACT_19_42_3ecb']
+
+cluster #374
+['make_Singleton_ACT_18_42_3ecb']
+
+cluster #375
+['confirmed_Singleton_ACT_23_42_3ecb']
+
+cluster #376
+['announced_ACT17773081680210382']
+
+cluster #377
+['offer_ACT17773055657381125']
+
+cluster #378
+['launch_ACT17773055657381125']
+
+cluster #379
+['strengthening_ACT18164623333887064']
+
+cluster #380
+['announced_ACT17773081680210382']
+
+cluster #381
+['offer_Singleton_ACT_18_42_6ecb']
+
+cluster #382
+['carrying_ACT17773055657381125']
+
+cluster #383
+['offering_ACT17773055657381125']
+
+cluster #384
+['announced_ACT17773081680210382']
+
+cluster #385
+['adding_ACT18164623333887064']
+
+cluster #386
+['announced_ACT17773081680210382']
+
+cluster #387
+['announced_Singleton_ACT_11_42_9ecb']
+
+cluster #388
+['start_Singleton_ACT_17_42_9ecb']
+
+cluster #389
+['selling_ACT17773055657381125']
+
+cluster #390
+['described_Singleton_ACT_67_43_1ecb']
+
+cluster #391
+['waxed metaphorical_Singleton_ACT_68_43_1ecb']
+
+cluster #392
+['hoping_Singleton_ACT_69_43_1ecb']
+
+cluster #393
+['ended_Singleton_ACT_119_43_1ecb']
+
+cluster #394
+['saying_ACT17774382244993466']
+
+cluster #395
+['a leg up_Singleton_ACT_71_43_1ecb']
+
+cluster #396
+['gain_Singleton_ACT_70_43_1ecb']
+
+cluster #397
+['buy_ACT17774320253942795']
+
+cluster #398
+['speculation_Singleton_ACT_117_43_1ecb']
+
+cluster #399
+['found_Singleton_ACT_111_43_1ecb']
+
+cluster #400
+['smile_Singleton_ACT_112_43_1ecb']
+
+cluster #401
+['announced_ACT17774382244993466']
+
+cluster #402
+['declined_Singleton_ACT_105_43_1ecb']
+
+cluster #403
+['comment_Singleton_ACT_104_43_1ecb']
+
+cluster #404
+['business_Singleton_ACT_76_43_1ecb']
+
+cluster #405
+['supplying_Singleton_ACT_91_43_1ecb']
+
+cluster #406
+['lock out_Singleton_ACT_92_43_1ecb']
+
+cluster #407
+['reason_Singleton_ACT_79_43_1ecb']
+
+cluster #408
+['says_Singleton_ACT_78_43_1ecb']
+
+cluster #409
+['buy_ACT17774320253942795']
+
+cluster #410
+['intention_Singleton_ACT_43_43_2ecb']
+
+cluster #411
+['announced_ACT17774382244993466']
+
+cluster #412
+['downgraded_Singleton_ACT_51_43_2ecb']
+
+cluster #413
+['outperform_Singleton_ACT_53_43_2ecb']
+
+cluster #414
+['sector perform_Singleton_ACT_52_43_2ecb']
+
+cluster #415
+['limited_Singleton_ACT_37_43_2ecb']
+
+cluster #416
+['upside_Singleton_ACT_66_43_2ecb']
+
+cluster #417
+['valued_Singleton_ACT_46_43_2ecb']
+
+cluster #418
+['competing_Singleton_ACT_58_43_2ecb']
+
+cluster #419
+['looks_Singleton_ACT_55_43_2ecb']
+
+cluster #420
+['said_Singleton_ACT_54_43_2ecb']
+
+cluster #421
+['bids_Singleton_ACT_57_43_2ecb']
+
+cluster #422
+['offer_Singleton_ACT_56_43_2ecb']
+
+cluster #423
+['close_Singleton_ACT_61_43_2ecb']
+
+cluster #424
+['said_Singleton_ACT_62_43_2ecb']
+
+cluster #425
+['expected_Singleton_ACT_63_43_2ecb']
+
+cluster #426
+['offers_Singleton_ACT_59_43_2ecb']
+
+cluster #427
+['chip-making market_ACT18227249738820928']
+
+cluster #428
+['reached_Singleton_ACT_110_43_3ecb']
+
+cluster #429
+['decision_Singleton_ACT_87_43_3ecb']
+
+cluster #430
+['acquire_ACT17774320253942795']
+
+cluster #431
+['battle_ACT18227263056288023']
+
+cluster #432
+['announcing_ACT17774382244993466']
+
+cluster #433
+['supremacy_Singleton_ACT_109_43_3ecb']
+
+cluster #434
+['say_Singleton_ACT_113_43_3ecb']
+
+cluster #435
+['dethrone_Singleton_ACT_118_43_3ecb']
+
+cluster #436
+['campaign_Singleton_ACT_117_43_3ecb']
+
+cluster #437
+['agreed_ACT17774336861337659']
+
+cluster #438
+['buy_ACT17774320253942795']
+
+cluster #439
+['subject_Singleton_ACT_122_43_3ecb']
+
+cluster #440
+['approvals_Singleton_ACT_123_43_3ecb']
+
+cluster #441
+['turn_Singleton_ACT_124_43_3ecb']
+
+cluster #442
+['said_Singleton_ACT_131_43_3ecb']
+
+cluster #443
+['put on a more equal footing with_Singleton_ACT_130_43_3ecb']
+
+cluster #444
+['see_Singleton_ACT_128_43_3ecb']
+
+cluster #445
+['noted_Singleton_ACT_135_43_3ecb']
+
+cluster #446
+['bring_Singleton_ACT_136_43_3ecb']
+
+cluster #447
+['message_Singleton_ACT_137_43_3ecb']
+
+cluster #448
+['said_Singleton_ACT_139_43_3ecb']
+
+cluster #449
+['downplayed_Singleton_ACT_142_43_3ecb']
+
+cluster #450
+['lay-offs_Singleton_ACT_143_43_3ecb']
+
+cluster #451
+['involve_Singleton_ACT_140_43_3ecb']
+
+cluster #452
+['changes_Singleton_ACT_141_43_3ecb']
+
+cluster #453
+['computer industry_Singleton_ACT_45_43_4ecb']
+
+cluster #454
+['control_Singleton_ACT_43_43_4ecb']
+
+cluster #455
+['battle_ACT18227263056288023']
+
+cluster #456
+['shook up_Singleton_ACT_39_43_4ecb']
+
+cluster #457
+['opening up_Singleton_ACT_38_43_4ecb']
+
+cluster #458
+['buying_ACT17774320253942795']
+
+cluster #459
+['front_Singleton_ACT_37_43_4ecb']
+
+cluster #460
+['chip market_ACT18227249738820928']
+
+cluster #461
+['power_Singleton_ACT_42_43_4ecb']
+
+cluster #462
+['overtake_Singleton_ACT_41_43_4ecb']
+
+cluster #463
+['bolsters_Singleton_ACT_59_43_4ecb']
+
+cluster #464
+['anticipated_Singleton_ACT_58_43_4ecb']
+
+cluster #465
+['strategy_Singleton_ACT_33_43_4ecb']
+
+cluster #466
+['gives_Singleton_ACT_57_43_4ecb']
+
+cluster #467
+['paying_ACT18227309613422282']
+
+cluster #468
+['acquire_ACT17774320253942795']
+
+cluster #469
+['history_Singleton_ACT_109_43_5ecb']
+
+cluster #470
+['announced_ACT17774382244993466']
+
+cluster #471
+['markets_INTRA_UNK_34416_43_5ecb']
+
+cluster #472
+['success_Singleton_ACT_160_43_5ecb']
+
+cluster #473
+['expand_Singleton_ACT_124_43_5ecb']
+
+cluster #474
+['position_Singleton_ACT_113_43_5ecb']
+
+cluster #475
+['let_Singleton_ACT_141_43_5ecb']
+
+cluster #476
+['teleconference_Singleton_ACT_121_43_5ecb']
+
+cluster #477
+['intend_Singleton_ACT_151_43_5ecb']
+
+cluster #478
+['announce_ACT17774382244993466']
+
+cluster #479
+['said_Singleton_ACT_153_43_5ecb']
+
+cluster #480
+['create_Singleton_ACT_152_43_5ecb']
+
+cluster #481
+['processing_Singleton_ACT_155_43_5ecb']
+
+cluster #482
+['deficiency_Singleton_ACT_43_43_6ecb']
+
+cluster #483
+['tension_ACT18227263056288023']
+
+cluster #484
+['intends_Singleton_ACT_51_43_6ecb']
+
+cluster #485
+['acquire_ACT17774320253942795']
+
+cluster #486
+['Addressing_Singleton_ACT_52_43_6ecb']
+
+cluster #487
+['computing_Singleton_ACT_61_43_6ecb']
+
+cluster #488
+['gaming-_Singleton_ACT_62_43_6ecb']
+
+cluster #489
+['media-oriented_Singleton_ACT_63_43_6ecb']
+
+cluster #490
+['think_Singleton_ACT_66_43_6ecb']
+
+cluster #491
+['remain_Singleton_ACT_59_43_6ecb']
+
+cluster #492
+['believe_Singleton_ACT_58_43_6ecb']
+
+cluster #493
+['play_Singleton_ACT_57_43_6ecb']
+
+cluster #494
+['way_Singleton_ACT_56_43_6ecb']
+
+cluster #495
+['growth_Singleton_ACT_50_43_6ecb']
+
+cluster #496
+['needed_Singleton_ACT_67_43_6ecb']
+
+cluster #497
+['market_Singleton_ACT_68_43_6ecb']
+
+cluster #498
+['business_Singleton_ACT_69_43_6ecb']
+
+cluster #499
+['breadth_Singleton_ACT_48_43_6ecb']
+
+cluster #500
+['view_Singleton_ACT_42_43_6ecb']
+
+cluster #501
+['make_Singleton_ACT_73_43_6ecb']
+
+cluster #502
+['match_Singleton_ACT_72_43_6ecb']
+
+cluster #503
+['shed_Singleton_ACT_71_43_6ecb']
+
+cluster #504
+['communications_Singleton_ACT_70_43_6ecb']
+
+cluster #505
+['move_ACT17774320253942795']
+
+cluster #506
+['it_ACT17774320253942795']
+
+cluster #507
+['said_Singleton_ACT_135_43_7ecb']
+
+cluster #508
+['compete_ACT18227263056288023']
+
+cluster #509
+['that_ACT17774320253942795']
+
+cluster #510
+['announced_ACT17774382244993466']
+
+cluster #511
+['help_Singleton_ACT_107_43_7ecb']
+
+cluster #512
+['worry_Singleton_ACT_108_43_7ecb']
+
+cluster #513
+['change_Singleton_ACT_106_43_7ecb']
+
+cluster #514
+['relations_Singleton_ACT_77_43_7ecb']
+
+cluster #515
+['held_Singleton_ACT_104_43_7ecb']
+
+cluster #516
+['urged_Singleton_ACT_105_43_7ecb']
+
+cluster #517
+['announcing_ACT17774382244993466']
+
+cluster #518
+['expected_Singleton_ACT_88_43_7ecb']
+
+cluster #519
+['impact_INTRA_UNK_34509_43_7ecb']
+
+cluster #520
+['create_Singleton_ACT_87_43_7ecb']
+
+cluster #521
+['implications_Singleton_ACT_28_43_8ecb']
+
+cluster #522
+['said_Singleton_ACT_25_43_8ecb']
+
+cluster #523
+['complete_Singleton_ACT_33_43_8ecb']
+
+cluster #524
+['speculate_Singleton_ACT_32_43_8ecb']
+
+cluster #525
+['integration_Singleton_ACT_31_43_8ecb']
+
+cluster #526
+['move_ACT18222897859726438']
+
+cluster #527
+['contacted_Singleton_ACT_60_44_1ecb']
+
+cluster #528
+['culture shock_Singleton_ACT_61_44_1ecb']
+
+cluster #529
+['layoffs_Singleton_ACT_62_44_1ecb']
+
+cluster #530
+['believe_Singleton_ACT_63_44_1ecb']
+
+cluster #531
+['say_Singleton_ACT_64_44_1ecb']
+
+cluster #532
+['neutrality_Singleton_ACT_66_44_1ecb']
+
+cluster #533
+['Industry_Singleton_ACT_73_44_1ecb']
+
+cluster #534
+['issues_Singleton_ACT_39_44_1ecb']
+
+cluster #535
+['snafus_Singleton_ACT_38_44_1ecb']
+
+cluster #536
+['consisted of_Singleton_ACT_40_44_1ecb']
+
+cluster #537
+['services_Singleton_ACT_59_44_1ecb']
+
+cluster #538
+['market_Singleton_ACT_56_44_1ecb']
+
+cluster #539
+['take_Singleton_ACT_54_44_1ecb']
+
+cluster #540
+['pitfalls_Singleton_ACT_51_44_1ecb']
+
+cluster #541
+['in theory_Singleton_ACT_52_44_1ecb']
+
+cluster #542
+['said_Singleton_ACT_49_44_1ecb']
+
+cluster #543
+['impact_Singleton_ACT_47_44_1ecb']
+
+cluster #544
+['help_Singleton_ACT_82_44_2ecb']
+
+cluster #545
+['consulting_Singleton_ACT_83_44_2ecb']
+
+cluster #546
+['snap up_Singleton_ACT_80_44_2ecb']
+
+cluster #547
+['negotiating_ACT27415246718959224']
+
+cluster #548
+['buy_ACT18222897859726438']
+
+cluster #549
+['contracts_Singleton_ACT_84_44_2ecb']
+
+cluster #550
+['data management_Singleton_ACT_85_44_2ecb']
+
+cluster #551
+['technology services_ACT18222924718788104']
+
+cluster #552
+['talks_ACT27415246718959224']
+
+cluster #553
+['reached_Singleton_ACT_90_44_2ecb']
+
+cluster #554
+['confirmed_Singleton_ACT_88_44_2ecb']
+
+cluster #555
+['reported_Singleton_ACT_89_44_2ecb']
+
+cluster #556
+['use_Singleton_ACT_68_44_2ecb']
+
+cluster #557
+['finance_Singleton_ACT_67_44_2ecb']
+
+cluster #558
+['market value_Singleton_ACT_49_44_2ecb']
+
+cluster #559
+['it_ACT18222908848679496']
+
+cluster #560
+['completed_Singleton_ACT_62_44_2ecb']
+
+cluster #561
+['bought_Singleton_ACT_63_44_2ecb']
+
+cluster #562
+['contracts_Singleton_ACT_54_44_2ecb']
+
+cluster #563
+['work_Singleton_ACT_51_44_2ecb']
+
+cluster #564
+['Acquiring_ACT18222897859726438']
+
+cluster #565
+['yield_Singleton_ACT_52_44_2ecb']
+
+cluster #566
+['represents_Singleton_ACT_77_44_3ecb']
+
+cluster #567
+['announced_Singleton_ACT_72_44_3ecb']
+
+cluster #568
+['hired_Singleton_ACT_71_44_3ecb']
+
+cluster #569
+['gamble_Singleton_ACT_93_44_3ecb']
+
+cluster #570
+['leadership_Singleton_ACT_94_44_3ecb']
+
+cluster #571
+['turn around_Singleton_ACT_52_44_3ecb']
+
+cluster #572
+['mean_Singleton_ACT_84_44_3ecb']
+
+cluster #573
+['completed_Singleton_ACT_88_44_3ecb']
+
+cluster #574
+['give_Singleton_ACT_86_44_3ecb']
+
+cluster #575
+['estimates_Singleton_ACT_87_44_3ecb']
+
+cluster #576
+['compared_Singleton_ACT_85_44_3ecb']
+
+cluster #577
+['technology services_Singleton_ACT_91_44_3ecb']
+
+cluster #578
+['market_Singleton_ACT_90_44_3ecb']
+
+cluster #579
+['daunting_Singleton_ACT_60_44_3ecb']
+
+cluster #580
+['said_Singleton_ACT_57_44_3ecb']
+
+cluster #581
+['tech industry_ACT18222867237889955']
+
+cluster #582
+['ripple_Singleton_ACT_47_44_4ecb']
+
+cluster #583
+['repercussions_Singleton_ACT_37_44_4ecb']
+
+cluster #584
+['buy_ACT18222897859726438']
+
+cluster #585
+['services_ACT18222924718788104']
+
+cluster #586
+['said_Singleton_ACT_64_44_4ecb']
+
+cluster #587
+['have_Singleton_ACT_48_44_4ecb']
+
+cluster #588
+['confirmed_Singleton_ACT_46_44_5ecb']
+
+cluster #589
+['acquire_ACT18222897859726438']
+
+cluster #590
+['Industry_Singleton_ACT_77_44_5ecb']
+
+cluster #591
+['announcement_ACT18222853762799791']
+
+cluster #592
+['told_Singleton_ACT_47_44_5ecb']
+
+cluster #593
+['come_Singleton_ACT_52_44_5ecb']
+
+cluster #594
+['assurances_Singleton_ACT_41_44_5ecb']
+
+cluster #595
+['statement_Singleton_ACT_76_44_5ecb']
+
+cluster #596
+['reached_Singleton_ACT_55_44_5ecb']
+
+cluster #597
+['agreement_ACT18222908848679496']
+
+cluster #598
+['said_Singleton_ACT_56_44_5ecb']
+
+cluster #599
+['consummated_Singleton_ACT_53_44_5ecb']
+
+cluster #600
+['response_Singleton_ACT_62_44_5ecb']
+
+cluster #601
+['market_Singleton_ACT_63_44_5ecb']
+
+cluster #602
+['announces_Singleton_ACT_64_44_5ecb']
+
+cluster #603
+['discussions_ACT27415246718959224']
+
+cluster #604
+['rumors_Singleton_ACT_59_44_5ecb']
+
+cluster #605
+['impending_Singleton_ACT_61_44_5ecb']
+
+cluster #606
+['put on level_Singleton_ACT_38_44_5ecb']
+
+cluster #607
+['operations_Singleton_ACT_64_44_6ecb']
+
+cluster #608
+['acquire_ACT18222897859726438']
+
+cluster #609
+['have_Singleton_ACT_46_44_6ecb']
+
+cluster #610
+['said_Singleton_ACT_47_44_6ecb']
+
+cluster #611
+['impact_Singleton_ACT_45_44_6ecb']
+
+cluster #612
+['tell_Singleton_ACT_51_44_6ecb']
+
+cluster #613
+['bid_Singleton_ACT_55_44_6ecb']
+
+cluster #614
+['pointed out_Singleton_ACT_62_44_6ecb']
+
+cluster #615
+['needs_Singleton_ACT_63_44_6ecb']
+
+cluster #616
+['approval_Singleton_ACT_38_44_6ecb']
+
+cluster #617
+['supposed_Singleton_ACT_61_44_6ecb']
+
+cluster #618
+['close_Singleton_ACT_69_44_6ecb']
+
+cluster #619
+['said_Singleton_ACT_70_44_6ecb']
+
+cluster #620
+['says_INTRA_UNK_34734_44_7ecb']
+
+cluster #621
+['service offerings_Singleton_ACT_82_44_7ecb']
+
+cluster #622
+['believes_INTRA_UNK_34731_44_7ecb']
+
+cluster #623
+['reach_Singleton_ACT_83_44_7ecb']
+
+cluster #624
+['services offerings_Singleton_ACT_81_44_7ecb']
+
+cluster #625
+['believes_INTRA_UNK_34731_44_7ecb']
+
+cluster #626
+['build out_Singleton_ACT_106_44_7ecb']
+
+cluster #627
+['accelerate_Singleton_ACT_107_44_7ecb']
+
+cluster #628
+['help_Singleton_ACT_105_44_7ecb']
+
+cluster #629
+['said_INTRA_UNK_34734_44_7ecb']
+
+cluster #630
+['conference call_Singleton_ACT_93_44_7ecb']
+
+cluster #631
+['thoughts_Singleton_ACT_84_44_7ecb']
+
+cluster #632
+['offered_Singleton_ACT_104_44_7ecb']
+
+cluster #633
+['announce_Singleton_ACT_120_44_7ecb']
+
+cluster #634
+['noted_Singleton_ACT_135_44_7ecb']
+
+cluster #635
+['ways_Singleton_ACT_114_44_7ecb']
+
+cluster #636
+['looking at_Singleton_ACT_90_44_7ecb']
+
+cluster #637
+['business_Singleton_ACT_102_44_7ecb']
+
+cluster #638
+['integrate_Singleton_ACT_101_44_7ecb']
+
+cluster #639
+['say_Singleton_ACT_137_44_7ecb']
+
+cluster #640
+['close_Singleton_ACT_136_44_7ecb']
+
+cluster #641
+['murder_ACT18223733653876036']
+
+cluster #642
+['conscience_Singleton_ACT_83_45_1ecb']
+
+cluster #643
+['crimes_ACT18223733653876036']
+
+cluster #644
+['means_Singleton_ACT_87_45_1ecb']
+
+cluster #645
+['guilty_ACT18225204803033899']
+
+cluster #646
+['found_ACT18225191225039905']
+
+cluster #647
+['vote_Singleton_ACT_93_45_1ecb']
+
+cluster #648
+['die_ACT18223792344828287']
+
+cluster #649
+['executed_ACT18223792344828287']
+
+cluster #650
+['verdict_Singleton_ACT_77_45_1ecb']
+
+cluster #651
+['deserves_Singleton_ACT_88_45_1ecb']
+
+cluster #652
+['wanted_Singleton_ACT_132_45_1ecb']
+
+cluster #653
+['continue_Singleton_ACT_131_45_1ecb']
+
+cluster #654
+['explained_Singleton_ACT_130_45_1ecb']
+
+cluster #655
+['disappearance_ACT18225143464946761']
+
+cluster #656
+['death_ACT18244338338545308']
+
+cluster #657
+['secret life_Singleton_ACT_82_45_1ecb']
+
+cluster #658
+['circumstances_Singleton_ACT_81_45_1ecb']
+
+cluster #659
+['expand_Singleton_ACT_129_45_1ecb']
+
+cluster #660
+['concluded_Singleton_ACT_105_45_1ecb']
+
+cluster #661
+['in any other way_Singleton_ACT_80_45_1ecb']
+
+cluster #662
+['kill_ACT18223733653876036']
+
+cluster #663
+['conduct_Singleton_ACT_139_45_1ecb']
+
+cluster #664
+['motive_Singleton_ACT_84_45_1ecb']
+
+cluster #665
+['found_ACT18225191225039905']
+
+cluster #666
+['disappearance_ACT18225143464946761']
+
+cluster #667
+['guilty_ACT18225204803033899']
+
+cluster #668
+['second-degree murder_ACT18223722043818347']
+
+cluster #669
+['first-degree murder_ACT18223709323918663']
+
+cluster #670
+['convicted_ACT18225191225039905']
+
+cluster #671
+['planning_Singleton_ACT_69_45_2ecb']
+
+cluster #672
+['death_ACT18244349188586796']
+
+cluster #673
+['unborn_NEG18223691367444011']
+
+cluster #674
+['name_Singleton_ACT_70_45_2ecb']
+
+cluster #675
+['death_ACT18244338338545308']
+
+cluster #676
+['disappeared_ACT18225143464946761']
+
+cluster #677
+['disappeared_ACT18225143464946761']
+
+cluster #678
+['washed up_ACT18225223803415850']
+
+cluster #679
+['gone_ACT18244362438722951']
+
+cluster #680
+['fishing_Singleton_ACT_54_45_2ecb']
+
+cluster #681
+['told_ACT18223661243593561']
+
+cluster #682
+['execute_ACT18223792344828287']
+
+cluster #683
+['decision_ACT18225191225039905']
+
+cluster #684
+['heard_Singleton_ACT_15_45_3ecb']
+
+cluster #685
+['murder_ACT18244338338545308']
+
+cluster #686
+['applauded_Singleton_ACT_9_45_3ecb']
+
+cluster #687
+['donating_Singleton_ACT_8_45_3ecb']
+
+cluster #688
+['unborn_NEG18223691367444011']
+
+cluster #689
+['repaired_Singleton_ACT_65_45_4ecb']
+
+cluster #690
+['death_ACT18223792344828287']
+
+cluster #691
+['convicted_ACT18225191225039905']
+
+cluster #692
+['asked_Singleton_ACT_49_45_4ecb']
+
+cluster #693
+['have_Singleton_ACT_44_45_4ecb']
+
+cluster #694
+['killing_ACT18223709323918663']
+
+cluster #695
+['send_Singleton_ACT_51_45_4ecb']
+
+cluster #696
+['told_Singleton_ACT_50_45_4ecb']
+
+cluster #697
+['unborn_NEG18223691367444011']
+
+cluster #698
+['convicted_ACT18225191225039905']
+
+cluster #699
+['death_ACT18244349188586796']
+
+cluster #700
+['killing_ACT18244338338545308']
+
+cluster #701
+['first-degree murder_ACT18223709323918663']
+
+cluster #702
+['second-degree murder_ACT18223733653876036']
+
+cluster #703
+['deaths_Singleton_ACT_11_45_5ecb']
+
+cluster #704
+['murder_ACT18223733653876036']
+
+cluster #705
+['convicted_ACT18225191225039905']
+
+cluster #706
+['captured_Singleton_ACT_60_45_6ecb']
+
+cluster #707
+['engrossed_Singleton_ACT_61_45_6ecb']
+
+cluster #708
+['attention_Singleton_ACT_65_45_6ecb']
+
+cluster #709
+['disappeared_ACT18225143464946761']
+
+cluster #710
+['found_ACT18225191225039905']
+
+cluster #711
+['unborn_NEG18223691367444011']
+
+cluster #712
+['death recommendation_ACT18223792344828287']
+
+cluster #713
+['murdering_ACT18223709323918663']
+
+cluster #714
+['stillness_Singleton_ACT_70_45_6ecb']
+
+cluster #715
+['filled_Singleton_ACT_93_45_6ecb']
+
+cluster #716
+['guilty_ACT18225204803033899']
+
+cluster #717
+['announced_Singleton_ACT_96_45_6ecb']
+
+cluster #718
+['sobs_Singleton_ACT_58_45_6ecb']
+
+cluster #719
+['unborn_NEG18223691367444011']
+
+cluster #720
+['second-degree murder_ACT18223733653876036']
+
+cluster #721
+['first-degree murder_ACT18223709323918663']
+
+cluster #722
+['convicted_ACT18225191225039905']
+
+cluster #723
+['death_ACT18244338338545308']
+
+cluster #724
+['death_ACT18244349188586796']
+
+cluster #725
+['unborn_NEG18223691367444011']
+
+cluster #726
+['second-degree murder_ACT18223733653876036']
+
+cluster #727
+['first-degree murder_ACT18223709323918663']
+
+cluster #728
+['found_ACT18225191225039905']
+
+cluster #729
+['recommended penalty_ACT18223792344828287']
+
+cluster #730
+['guilty_ACT18225204803033899']
+
+cluster #731
+['transfixed_Singleton_ACT_60_45_7ecb']
+
+cluster #732
+['adultery_Singleton_ACT_63_45_7ecb']
+
+cluster #733
+['unborn_NEG18223691367444011']
+
+cluster #734
+['killing_ACT18223709323918663']
+
+cluster #735
+['betrayal_Singleton_ACT_40_45_7ecb']
+
+cluster #736
+['saga_Singleton_ACT_41_45_7ecb']
+
+cluster #737
+['found_ACT18225191225039905']
+
+cluster #738
+['finding_ACT18225191225039905']
+
+cluster #739
+['showed_Singleton_ACT_49_45_7ecb']
+
+cluster #740
+['first-degree murder_ACT18223709323918663']
+
+cluster #741
+['second-degree murder_ACT18223722043818347']
+
+cluster #742
+['death_ACT18244338338545308']
+
+cluster #743
+['death_ACT18244349188586796']
+
+cluster #744
+['named_Singleton_ACT_55_45_7ecb']
+
+cluster #745
+['staring_Singleton_ACT_51_45_7ecb']
+
+cluster #746
+['announced_Singleton_ACT_53_45_7ecb']
+
+cluster #747
+['emotion_Singleton_ACT_65_45_7ecb']
+
+cluster #748
+['death sentence_ACT18223792344828287']
+
+cluster #749
+['learning_Singleton_ACT_13_45_8ecb']
+
+cluster #750
+['trial_Singleton_ACT_14_45_8ecb']
+
+cluster #751
+['wore_Singleton_ACT_22_45_8ecb']
+
+cluster #752
+['spoke_Singleton_ACT_16_45_8ecb']
+
+cluster #753
+['sat_Singleton_ACT_17_45_8ecb']
+
+cluster #754
+['murder_ACT18223733653876036']
+
+cluster #755
+['tried_Singleton_ACT_53_36_10ecbplus']
+
+cluster #756
+['goes_Singleton_ACT_54_36_10ecbplus']
+
+cluster #757
+['Defends_Singleton_ACT_26_36_11ecbplus']
+
+cluster #758
+['Trial_ACT17717033296379310']
+
+cluster #759
+['fathering_ACT17717083178139489']
+
+cluster #760
+['raping_ACT28673542302134352']
+
+cluster #761
+['sexual assault_ACT17642254010313856']
+
+cluster #762
+['Guilty_ACT17642293426842922']
+
+cluster #763
+['Found_ACT17642240843264095']
+
+cluster #764
+['Sexual Assault_ACT17642254010313856']
+
+cluster #765
+['guilty_ACT17642293426842922']
+
+cluster #766
+['found_ACT17642240843264095']
+
+cluster #767
+['sexual assault_ACT17642254010313856']
+
+cluster #768
+['"spiritual_Singleton_ACT_43_36_1ecbplus']
+
+cluster #769
+['sexual assault_ACT17642254010313856']
+
+cluster #770
+['taking_ACT17712202477008858']
+
+cluster #771
+['sentenced_ACT17720074783104766']
+
+cluster #772
+['life in prison_ACT28674653653685646']
+
+cluster #773
+['aggravated sexual assault_ACT17642254010313856']
+
+cluster #774
+['sexual assault_ACT17642254010313856']
+
+cluster #775
+['life in prison_ACT28674653653685646']
+
+cluster #776
+['sentenced_ACT17720074783104766']
+
+cluster #777
+['20 years in prison_ACT28674637423707425']
+
+cluster #778
+['Sexual Assault_ACT17642254010313856']
+
+cluster #779
+['Convicted_ACT17720074783104766']
+
+cluster #780
+['sexual assault_ACT17642254010313856']
+
+cluster #781
+['took_ACT17712202477008858']
+
+cluster #782
+['calls_ACT17716981427916248']
+
+cluster #783
+['convicted_ACT17720074783104766']
+
+cluster #784
+['stemming_Singleton_ACT_16_36_3ecbplus']
+
+cluster #785
+['objections_Singleton_ACT_26_36_4ecbplus']
+
+cluster #786
+['hears_ACT17712184923948809']
+
+cluster #787
+['put on_ACT17642310630333551']
+
+cluster #788
+['trial_ACT17717033296379310']
+
+cluster #789
+['underage_Singleton_ACT_49_36_4ecbplus']
+
+cluster #790
+['sexually assaulting_ACT17642254010313856']
+
+cluster #791
+['shocking_Singleton_ACT_50_36_4ecbplus']
+
+cluster #792
+['life in prison_ACT28674653653685646']
+
+cluster #793
+['sexually assaulting_ACT17642254010313856']
+
+cluster #794
+['convicted_ACT17642240843264095']
+
+cluster #795
+['sentenced_ACT17720074783104766']
+
+cluster #796
+['claimed_ACT17712202477008858']
+
+cluster #797
+['showed_Singleton_ACT_50_36_5ecbplus']
+
+cluster #798
+['fathered_ACT17717083178139489']
+
+cluster #799
+['DNA report_Singleton_ACT_49_36_5ecbplus']
+
+cluster #800
+['presented_Singleton_ACT_41_36_5ecbplus']
+
+cluster #801
+['engaging in sexual intercourse_ACT17642273140507825']
+
+cluster #802
+['played_ACT17642310630333551']
+
+cluster #803
+['convicted_ACT17720074783104766']
+
+cluster #804
+['sexual assault_ACT17642254010313856']
+
+cluster #805
+['calls_ACT17716981427916248']
+
+cluster #806
+['took_ACT17712202477008858']
+
+cluster #807
+['sexual assault_ACT17642254010313856']
+
+cluster #808
+['stemming_Singleton_ACT_23_36_6ecbplus']
+
+cluster #809
+['convicted_ACT17720074783104766']
+
+cluster #810
+['sex crimes_ACT17642254010313856']
+
+cluster #811
+['arranged_ACT17720095033296675']
+
+cluster #812
+['sex_ACT17642254010313856']
+
+cluster #813
+['arraigned_INTRA_ACT_38105_36_9ecbplus']
+
+cluster #814
+['arraigned_INTRA_ACT_38105_36_9ecbplus']
+
+cluster #815
+['face_Singleton_ACT_21_36_9ecbplus']
+
+cluster #816
+['trial_ACT17717033296379310']
+
+cluster #817
+['sexual assault_ACT17642254010313856']
+
+cluster #818
+['extradited_Singleton_ACT_19_36_9ecbplus']
+
+cluster #819
+['felony_Singleton_ACT_29_36_9ecbplus']
+
+cluster #820
+['assault_Singleton_ACT_32_36_9ecbplus']
+
+cluster #821
+['aggravated sexual assault_ACT17642254010313856']
+
+cluster #822
+['2004 tsunami_ACT17728473838134834']
+
+cluster #823
+['hit_ACT17728461364771989']
+
+cluster #824
+['6 . 1 - magnitude quake_ACT17643276204095552']
+
+cluster #825
+['strikes_ACT17643297665414754']
+
+cluster #826
+['tsunami_ACT17728473838134834']
+
+cluster #827
+['triggered_ACT28678315591769938']
+
+cluster #828
+['quake_ACT28678235358795596']
+
+cluster #829
+['6 . 1 - magnitude quake_ACT17643276204095552']
+
+cluster #830
+['injured_ACT17643316480481042']
+
+cluster #831
+['devastated_ACT17728461364771989']
+
+cluster #832
+['rocked_ACT17643297665414754']
+
+cluster #833
+['6 . 1 - magnitude quake_ACT17643276204095552']
+
+cluster #834
+['strikes_ACT17643297665414754']
+
+cluster #835
+['6 . 1 - magnitude earthquake_Singleton_ACT_11_37_11ecbplus']
+
+cluster #836
+['tsunami warning_Singleton_ACT_13_37_11ecbplus']
+
+cluster #837
+['struck_ACT17643297665414754']
+
+cluster #838
+['in panic_ACT17732041551372287']
+
+cluster #839
+['struck_ACT17643297665414754']
+
+cluster #840
+['6 . 1 - magnitude earthquake_ACT17643276204095552']
+
+cluster #841
+['running_ACT17643417580512838']
+
+cluster #842
+['said_ACT17728829996762360']
+
+cluster #843
+['sending_ACT28684560990884056']
+
+cluster #844
+['Earthquake_ACT17643276204095552']
+
+cluster #845
+['Strikes_ACT17643297665414754']
+
+cluster #846
+['Killing_ACT17731356065373434']
+
+cluster #847
+['missing_ACT28679204514814879']
+
+cluster #848
+['magnitude - 6 . 1 earthquake_ACT17643276204095552']
+
+cluster #849
+['struck_ACT17643297665414754']
+
+cluster #850
+['reported_ACT17731902152663345']
+
+cluster #851
+['killing_ACT17731356065373434']
+
+cluster #852
+['hits_ACT17643297665414754']
+
+cluster #853
+['earthquake_ACT17643276204095552']
+
+cluster #854
+['damaging_ACT17731484377901747']
+
+cluster #855
+['earthquake_ACT17643276204095552']
+
+cluster #856
+['injuring_ACT17643316480481042']
+
+cluster #857
+['struck_ACT17643297665414754']
+
+cluster #858
+['dead_ACT17731356065373434']
+
+cluster #859
+['hits_ACT17643297665414754']
+
+cluster #860
+['Magnitude - 6 . 1 quake_ACT17643276204095552']
+
+cluster #861
+['missing_ACT28679204514814879']
+
+cluster #862
+['struck_ACT17643297665414754']
+
+cluster #863
+['earthquake_ACT17643276204095552']
+
+cluster #864
+['killing_ACT17731356065373434']
+
+cluster #865
+['injured_ACT17643316480481042']
+
+cluster #866
+['damaged_ACT17731484377901747']
+
+cluster #867
+['injured_ACT17643316480481042']
+
+cluster #868
+['Indonesia quake_ACT17643276204095552']
+
+cluster #869
+['dead_ACT17728573458939282']
+
+cluster #870
+['devastated_ACT17728461364771989']
+
+cluster #871
+['killing_ACT17728573458939282']
+
+cluster #872
+['earthquake_ACT17643276204095552']
+
+cluster #873
+['flattened_ACT17643365007378913']
+
+cluster #874
+['landslides_ACT17643375197302196']
+
+cluster #875
+['sparked_ACT17643351187279707']
+
+cluster #876
+['quake_ACT28678235358795596']
+
+cluster #877
+['injuring_ACT17643316480481042']
+
+cluster #878
+['tsunami_ACT17728473838134834']
+
+cluster #879
+['triggered_ACT28678315591769938']
+
+cluster #880
+['6 . 1 - magnitude quake_ACT17643276204095552']
+
+cluster #881
+['strikes_ACT17643297665414754']
+
+cluster #882
+['6 . 1 - magnitude earthquake_ACT17643276204095552']
+
+cluster #883
+['killing_ACT17728573458939282']
+
+cluster #884
+['strikes_ACT17643297665414754']
+
+cluster #885
+['injuring_ACT17643316480481042']
+
+cluster #886
+['Indonesia earthquake_ACT17643276204095552']
+
+cluster #887
+['injured_ACT17643316480481042']
+
+cluster #888
+['6 . 1 magnitude quake_ACT17643276204095552']
+
+cluster #889
+['hits_ACT17643297665414754']
+
+cluster #890
+['dead_ACT17728573458939282']
+
+cluster #891
+['leaving_Singleton_ACT_42_37_3ecbplus']
+
+cluster #892
+['dead_ACT17728573458939282']
+
+cluster #893
+['leading_ACT17731410395928786']
+
+cluster #894
+['rescue operations_ACT17731371590955905']
+
+cluster #895
+['6 . 1 magnitude earthquake_ACT17643276204095552']
+
+cluster #896
+['injured_ACT17643316480481042']
+
+cluster #897
+['hit_ACT17643297665414754']
+
+cluster #898
+['dead_ACT17731356065373434']
+
+cluster #899
+['injured_ACT17643316480481042']
+
+cluster #900
+['6 . 1 - magnitude earthquake_ACT17643276204095552']
+
+cluster #901
+['hits_ACT17643297665414754']
+
+cluster #902
+['triggered_ACT28678315591769938']
+
+cluster #903
+['panic_ACT17732041551372287']
+
+cluster #904
+['sparking_ACT28684560990884056']
+
+cluster #905
+['tsunami_ACT17728473838134834']
+
+cluster #906
+['destroyed_ACT17643365007378913']
+
+cluster #907
+['devastated_ACT17728461364771989']
+
+cluster #908
+['killed_ACT17731356065373434']
+
+cluster #909
+['injured_ACT17643316480481042']
+
+cluster #910
+['which_ACT17643276204095552']
+
+cluster #911
+['hit_ACT17643297665414754']
+
+cluster #912
+['6 . 1 - magnitude earthquake_ACT17643276204095552']
+
+cluster #913
+['quake_ACT28678235358795596']
+
+cluster #914
+['6 . 1 - magnitude quake_ACT17643276204095552']
+
+cluster #915
+['injured_ACT17643316480481042']
+
+cluster #916
+['hits_ACT17643297665414754']
+
+cluster #917
+['injuring_ACT17643316480481042']
+
+cluster #918
+['6 . 1 - magnitude earthquake_ACT17643276204095552']
+
+cluster #919
+['struck_ACT17643297665414754']
+
+cluster #920
+['collapse_ACT17643365007378913']
+
+cluster #921
+['causing_ACT17643338175331119']
+
+cluster #922
+['earthquake_ACT17643276204095552']
+
+cluster #923
+['rescue operation_ACT17731371590955905']
+
+cluster #924
+['causing_ACT17643351187279707']
+
+cluster #925
+['under way_ACT17731410395928786']
+
+cluster #926
+['6 . 1 magnitude earthquake_ACT17643276204095552']
+
+cluster #927
+['Rescue operations_ACT17731371590955905']
+
+cluster #928
+['flattening_ACT17643365007378913']
+
+cluster #929
+['hit_ACT17643297665414754']
+
+cluster #930
+['landslides_ACT17643375197302196']
+
+cluster #931
+['struck_ACT17643297665414754']
+
+cluster #932
+['which_ACT17643276204095552']
+
+cluster #933
+['say_Singleton_ACT_44_37_6ecbplus']
+
+cluster #934
+['killed_ACT17728573458939282']
+
+cluster #935
+['quake_ACT17643276204095552']
+
+cluster #936
+['injured_ACT17643316480481042']
+
+cluster #937
+['earthquake_ACT17643276204095552']
+
+cluster #938
+['injures_ACT17643316480481042']
+
+cluster #939
+['injured_ACT17643316480481042']
+
+cluster #940
+['6 . 1 magnitude earthquake_ACT17643276204095552']
+
+cluster #941
+['destroyed_ACT17643365007378913']
+
+cluster #942
+['strikes_ACT17643297665414754']
+
+cluster #943
+['reported_ACT28684572666644701']
+
+cluster #944
+['hit_ACT17643297665414754']
+
+cluster #945
+['6 . 1 magnitude earthquake_ACT17643276204095552']
+
+cluster #946
+['6 . 1 magnitude earthquake_ACT17643276204095552']
+
+cluster #947
+['injures_ACT17643316480481042']
+
+cluster #948
+['6 . 1 magnitude earthquake_ACT17643276204095552']
+
+cluster #949
+['hit_ACT17643297665414754']
+
+cluster #950
+['injured_ACT17643316480481042']
+
+cluster #951
+['reported_ACT28684572666644701']
+
+cluster #952
+['hits_ACT17643297665414754']
+
+cluster #953
+['injured_ACT17643316480481042']
+
+cluster #954
+['6 . 1 - magnitude quake_ACT17643276204095552']
+
+cluster #955
+['quake_ACT28678235358795596']
+
+cluster #956
+['panic_ACT17732041551372287']
+
+cluster #957
+['killed_ACT17728573458939282']
+
+cluster #958
+['injured_ACT17643316480481042']
+
+cluster #959
+['destroyed_ACT17643365007378913']
+
+cluster #960
+['which_ACT17643276204095552']
+
+cluster #961
+['hit_ACT17643297665414754']
+
+cluster #962
+['sparking_ACT28684560990884056']
+
+cluster #963
+['devastated_ACT17728461364771989']
+
+cluster #964
+['triggered_ACT28678315591769938']
+
+cluster #965
+['6 . 1 - magnitude earthquake_ACT17643276204095552']
+
+cluster #966
+['tsunami_ACT17728473838134834']
+
+cluster #967
+['4 - Plus Earthquake_ACT17740950239373139']
+
+cluster #968
+['Recorded_ACT17741060301743492']
+
+cluster #969
+['according to_ACT17741074884636897']
+
+cluster #970
+['recorded_ACT17741060301743492']
+
+cluster #971
+['earthquake_ACT17740950239373139']
+
+cluster #972
+['quake_ACT17740950239373139']
+
+cluster #973
+['California Earthquake_ACT17740950239373139']
+
+cluster #974
+['Erupts_ACT17740966335637555']
+
+cluster #975
+['California earthquake_ACT17740950239373139']
+
+cluster #976
+['erupted_ACT17740966335637555']
+
+cluster #977
+['reports_Singleton_ACT_14_38_11ecbplus']
+
+cluster #978
+['indicated_NEG17741037369294051']
+
+cluster #979
+['injuries_NEG17741023353537234']
+
+cluster #980
+['4 . 6 magnitude quake_ACT17740950239373139']
+
+cluster #981
+['recorded_ACT17741060301743492']
+
+cluster #982
+['earthquake_ACT17740950239373139']
+
+cluster #983
+['recorded_ACT17741060301743492']
+
+cluster #984
+['according to_ACT17741074884636897']
+
+cluster #985
+['occurred_ACT17740966335637555']
+
+cluster #986
+['quake_ACT17740950239373139']
+
+cluster #987
+['4 . 6 quake_ACT17740950239373139']
+
+cluster #988
+['rattles_ACT17740966335637555']
+
+cluster #989
+['earthquake_ACT17740950239373139']
+
+cluster #990
+['rattled_ACT17740966335637555']
+
+cluster #991
+['according to_ACT17741074884636897']
+
+cluster #992
+['occurred_ACT17740966335637555']
+
+cluster #993
+['quake_ACT17740950239373139']
+
+cluster #994
+['4 . 6 - magnitude earthquake_ACT17740950239373139']
+
+cluster #995
+['shakes_ACT17740966335637555']
+
+cluster #996
+['accustomed_Singleton_ACT_26_38_3ecbplus']
+
+cluster #997
+['startled_Singleton_ACT_5_38_3ecbplus']
+
+cluster #998
+['magnitude 4 . 6 earthquake_ACT17740950239373139']
+
+cluster #999
+['seismic activity_Singleton_ACT_6_38_3ecbplus']
+
+cluster #1000
+['shaken awake_ACT17740966335637555']
+
+cluster #1001
+['quake_ACT17740950239373139']
+
+cluster #1002
+['rare_Singleton_ACT_11_38_4ecbplus']
+
+cluster #1003
+['This one_ACT17740950239373139']
+
+cluster #1004
+['large size_Singleton_ACT_10_38_4ecbplus']
+
+cluster #1005
+['4 . 4 quake_ACT17740950239373139']
+
+cluster #1006
+['4 . 6 - Magnitude Earthquake_ACT17740950239373139']
+
+cluster #1007
+['Recorded_ACT17741060301743492']
+
+cluster #1008
+['according to_ACT17741074884636897']
+
+cluster #1009
+['recorded_ACT17741060301743492']
+
+cluster #1010
+['earthquake_ACT17740950239373139']
+
+cluster #1011
+['occurred_ACT17740966335637555']
+
+cluster #1012
+['quake_ACT17740950239373139']
+
+cluster #1013
+['shakes_ACT17740966335637555']
+
+cluster #1014
+['Lake County earthquake_ACT17740950239373139']
+
+cluster #1015
+['earthquake_ACT17740950239373139']
+
+cluster #1016
+['reported_ACT17741074884636897']
+
+cluster #1017
+['shaken_ACT17740966335637555']
+
+cluster #1018
+['4 . 6 - magnitude earthquake_ACT17740950239373139']
+
+cluster #1019
+['shaking_Singleton_ACT_3_38_7ecbplus']
+
+cluster #1020
+['rattled_ACT17740966335637555']
+
+cluster #1021
+['centered_Singleton_ACT_24_38_7ecbplus']
+
+cluster #1022
+['according to_ACT17741074884636897']
+
+cluster #1023
+['struck_ACT17740966335637555']
+
+cluster #1024
+['temblor_ACT17740950239373139']
+
+cluster #1025
+['4 . 6 earthquake_ACT17740950239373139']
+
+cluster #1026
+['shakes_ACT17740966335637555']
+
+cluster #1027
+['magnitude 4 . 6 earthquake_ACT17740950239373139']
+
+cluster #1028
+['struck_ACT17740966335637555']
+
+cluster #1029
+['temblor_ACT17740950239373139']
+
+cluster #1030
+['struck_ACT17740966335637555']
+
+cluster #1031
+['Magnitude 4 . 6 Earthquake_ACT17740950239373139']
+
+cluster #1032
+['Shakes Up_ACT17740966335637555']
+
+cluster #1033
+['according to_ACT17741074884636897']
+
+cluster #1034
+['earthquake_ACT17740950239373139']
+
+cluster #1035
+['recorded_ACT17741060301743492']
+
+cluster #1036
+['occurred_ACT17740966335637555']
+
+cluster #1037
+['quake_ACT17740950239373139']
+
+cluster #1038
+['replace_ACT17745022886244971']
+
+cluster #1039
+['play_ACT17747400850049345']
+
+cluster #1040
+['replacing_ACT17745022886244971']
+
+cluster #1041
+['announced_ACT17745258351334464']
+
+cluster #1042
+['announced_ACT17745258351334464']
+
+cluster #1043
+['take up_ACT17747400850049345']
+
+cluster #1044
+['coveted_Singleton_ACT_16_39_11ecbplus']
+
+cluster #1045
+['announced_ACT17750051129335917']
+
+cluster #1046
+['replace_ACT17745022886244971']
+
+cluster #1047
+['leaving_ACT17750037658660634']
+
+cluster #1048
+['revealed_ACT17745258351334464']
+
+cluster #1049
+['announced_ACT17745258351334464']
+
+cluster #1050
+['role_ACT17747414996973469']
+
+cluster #1051
+['says_ACT17750077849719353']
+
+cluster #1052
+['considered_ACT17745143874346551']
+
+cluster #1053
+['take over_ACT17745022886244971']
+
+cluster #1054
+['revealed_ACT17745258351334464']
+
+cluster #1055
+['considered_ACT17745143874346551']
+
+cluster #1056
+['take over_ACT17745022886244971']
+
+cluster #1057
+['known_Singleton_ACT_24_39_3ecbplus']
+
+cluster #1058
+['play_ACT17747414996973469']
+
+cluster #1059
+['revealed_ACT17745258351334464']
+
+cluster #1060
+['revealed_ACT17745258351334464']
+
+cluster #1061
+['Lead_Singleton_ACT_21_39_5ecbplus']
+
+cluster #1062
+['Congrats_Singleton_ACT_22_39_5ecbplus']
+
+cluster #1063
+['Takes Over_ACT17745022886244971']
+
+cluster #1064
+['vacant_Singleton_ACT_20_39_5ecbplus']
+
+cluster #1065
+['stepped into_ACT17745022886244971']
+
+cluster #1066
+['Cast_ACT17745154874463415']
+
+cluster #1067
+['Revealed_ACT17745258351334464']
+
+cluster #1068
+['replace_ACT17745022886244971']
+
+cluster #1069
+['selected_ACT17745154874463415']
+
+cluster #1070
+['set_ACT17745154874463415']
+
+cluster #1071
+['exiting_ACT17750037658660634']
+
+cluster #1072
+['announced_ACT17745258351334464']
+
+cluster #1073
+['announced_ACT17745258351334464']
+
+cluster #1074
+['leaving_ACT17750037658660634']
+
+cluster #1075
+['take over_ACT17745022886244971']
+
+cluster #1076
+['take over_ACT17745022886244971']
+
+cluster #1077
+['become_ACT17745154874463415']
+
+cluster #1078
+['next_Singleton_ACT_19_39_8ecbplus']
+
+cluster #1079
+['retiring_ACT17750037658660634']
+
+cluster #1080
+['take over_ACT17745022886244971']
+
+cluster #1081
+['refresh_ACT17764175536063945']
+
+cluster #1082
+['WWDC12_ACT17764126188523329']
+
+cluster #1083
+['took_Singleton_ACT_13_40_11ecbplus']
+
+cluster #1084
+['announce_ACT17764092395475677']
+
+cluster #1085
+['welcome_Singleton_ACT_14_40_11ecbplus']
+
+cluster #1086
+['intro_Singleton_ACT_16_40_11ecbplus']
+
+cluster #1087
+['announced_Singleton_ACT_40_40_11ecbplus']
+
+cluster #1088
+['updates_ACT17764175536063945']
+
+cluster #1089
+['making_ACT17764112159456441']
+
+cluster #1090
+['refresh_ACT17764175536063945']
+
+cluster #1091
+['running_ACT17764161665710074']
+
+cluster #1092
+["San Francisco gathering's_ACT17764126188523329"]
+
+cluster #1093
+['existing_Singleton_ACT_35_40_1ecbplus']
+
+cluster #1094
+['upgrade_ACT17764175536063945']
+
+cluster #1095
+['new_Singleton_ACT_18_40_3ecbplus']
+
+cluster #1096
+['new_Singleton_ACT_19_40_3ecbplus']
+
+cluster #1097
+['making_ACT17764112159456441']
+
+cluster #1098
+["San Francisco gathering's_ACT17764126188523329"]
+
+cluster #1099
+['running_ACT17764161665710074']
+
+cluster #1100
+['come_ACT17764161665710074']
+
+cluster #1101
+['launch_ACT17764092395475677']
+
+cluster #1102
+['cheaper_Singleton_ACT_7_40_5ecbplus']
+
+cluster #1103
+['powered_ACT17764161665710074']
+
+cluster #1104
+['chosen_Singleton_ACT_5_40_5ecbplus']
+
+cluster #1105
+['announce_ACT17764092395475677']
+
+cluster #1106
+['update_ACT17764175536063945']
+
+cluster #1107
+['New_Singleton_ACT_6_40_6ecbplus']
+
+cluster #1108
+['refresh_ACT17764175536063945']
+
+cluster #1109
+['overdue_Singleton_ACT_7_40_6ecbplus']
+
+cluster #1110
+['new_Singleton_ACT_24_40_7ecbplus']
+
+cluster #1111
+['Flagship_INTRA_ACT_38287_40_9ecbplus']
+
+cluster #1112
+['flagship_INTRA_ACT_38287_40_9ecbplus']
+
+cluster #1113
+['warns_ACT18155965009408169']
+
+cluster #1114
+['war_ACT18155545238034288']
+
+cluster #1115
+['bombs_ACT17764871460776174']
+
+cluster #1116
+['dropped_ACT17764871460776174']
+
+cluster #1117
+['crossed_ACT18155456373659704']
+
+cluster #1118
+['filled_Singleton_ACT_8_41_10ecbplus']
+
+cluster #1119
+['deaths_ACT18150053572377193']
+
+cluster #1120
+['casualties_NEG18098074719008041']
+
+cluster #1121
+['spoke_ACT18149891391022705']
+
+cluster #1122
+['reported_ACT18150040378607285']
+
+cluster #1123
+['said_ACT18149969486242756']
+
+cluster #1124
+['bombs_ACT17764871460776174']
+
+cluster #1125
+['air strike_ACT17764871460776174']
+
+cluster #1126
+['Bombs_ACT17764871460776174']
+
+cluster #1127
+['attacked_ACT17764871460776174']
+
+cluster #1128
+['air attack_ACT17764871460776174']
+
+cluster #1129
+['condemns_ACT17765199677300337']
+
+cluster #1130
+['condemned_ACT17765199677300337']
+
+cluster #1131
+['conflict_ACT18098125260300733']
+
+cluster #1132
+['sheltering_ACT18096262646772132']
+
+cluster #1133
+['bombing_ACT17764871460776174']
+
+cluster #1134
+['fleeing_ACT18096249405057992']
+
+cluster #1135
+['fell_ACT17764871460776174']
+
+cluster #1136
+['said_ACT18096212466688429']
+
+cluster #1137
+["'bombs_ACT17764871460776174"]
+
+cluster #1138
+['bombardment_ACT17764871460776174']
+
+cluster #1139
+['condemned_ACT18148792925043235']
+
+cluster #1140
+['Bombing_ACT17764871460776174']
+
+cluster #1141
+['bombed_ACT17764871460776174']
+
+cluster #1142
+['dropped_ACT17764860950843668']
+
+cluster #1143
+['delivering_ACT17764905153064835']
+
+cluster #1144
+['dropped_ACT17764871460776174']
+
+cluster #1145
+['needed_Singleton_ACT_22_41_4ecbplus']
+
+cluster #1146
+['landed_ACT17764849036824413']
+
+cluster #1147
+['air strike_ACT17764871460776174']
+
+cluster #1148
+['accuses_ACT18150107329699854']
+
+cluster #1149
+['tensions_ACT18155510674379480']
+
+cluster #1150
+['bombed_ACT17764871460776174']
+
+cluster #1151
+['raise_ACT18155496864678578']
+
+cluster #1152
+['threatening_ACT18155486564160516']
+
+cluster #1153
+['violence - plagued_Singleton_ACT_9_41_5ecbplus']
+
+cluster #1154
+['denied_NEG18149922551893584']
+
+cluster #1155
+['carried out_ACT18149940812136694']
+
+cluster #1156
+['strike_ACT17764871460776174']
+
+cluster #1157
+['Fears_ACT18155965009408169']
+
+cluster #1158
+['Bombing_ACT17764871460776174']
+
+cluster #1159
+['War_ACT18155545238034288']
+
+cluster #1160
+['Accuses_ACT18150107329699854']
+
+cluster #1161
+['denied_NEG18149922551893584']
+
+cluster #1162
+['striking_ACT17764871460776174']
+
+cluster #1163
+['hitting_ACT18149940812136694']
+
+cluster #1164
+['dropped_ACT17764871460776174']
+
+cluster #1165
+['rebellion_ACT17765078825374672']
+
+cluster #1166
+['crossed_ACT18155472274279832']
+
+cluster #1167
+['bombed_ACT17764871460776174']
+
+cluster #1168
+['bombed_ACT17764871460776174']
+
+cluster #1169
+['threatening_ACT18155486564160516']
+
+cluster #1170
+['raise_ACT18155496864678578']
+
+cluster #1171
+['tensions_ACT18155510674379480']
+
+cluster #1172
+['denied_NEG18149922551893584']
+
+cluster #1173
+['carried out_ACT18149940812136694']
+
+cluster #1174
+['strike_ACT17764871460776174']
+
+cluster #1175
+['Bombs_ACT17764871460776174']
+
+cluster #1176
+['Say_Singleton_ACT_19_41_8ecbplus']
+
+cluster #1177
+['Reports_Singleton_ACT_18_41_8ecbplus']
+
+cluster #1178
+['crossed_ACT18155456373659704']
+
+cluster #1179
+['filled_Singleton_ACT_5_41_8ecbplus']
+
+cluster #1180
+['dropped_ACT17764871460776174']
+
+cluster #1181
+['spoke_ACT18149891391022705']
+
+cluster #1182
+['deaths_ACT18150053572377193']
+
+cluster #1183
+['said_NEG17765242903627109']
+
+cluster #1184
+['reported_ACT18150040378607285']
+
+cluster #1185
+['casualties_NEG18098074719008041']
+
+cluster #1186
+['Bombed_ACT17764871460776174']
+
+cluster #1187
+['bombed_ACT17764871460776174']
+
+cluster #1188
+['alleges_Singleton_ACT_14_41_9ecbplus']
+
+cluster #1189
+['heightening_Singleton_ACT_25_41_9ecbplus']
+
+cluster #1190
+['bombing_ACT17764871460776174']
+
+cluster #1191
+['result_Singleton_ACT_22_41_9ecbplus']
+
+cluster #1192
+['tensions_ACT18155510674379480']
+
+cluster #1193
+['carry_ACT17772767257648848']
+
+cluster #1194
+['business registration_ACT18164238287486070']
+
+cluster #1195
+['surface_Singleton_ACT_15_42_10ecbplus']
+
+cluster #1196
+['starting_Singleton_ACT_34_42_10ecbplus']
+
+cluster #1197
+['availability_ACT17772963905228053']
+
+cluster #1198
+['opportunity_Singleton_ACT_17_42_10ecbplus']
+
+cluster #1199
+['starting_ACT18164251707547444']
+
+cluster #1200
+['register_ACT18164238287486070']
+
+cluster #1201
+['pricing_Singleton_ACT_37_42_10ecbplus']
+
+cluster #1202
+['confirmed_ACT17772982137810312']
+
+cluster #1203
+['follow_Singleton_ACT_19_42_10ecbplus']
+
+cluster #1204
+['Adds_ACT17772681568298983']
+
+cluster #1205
+['partnering_ACT17772848074736133']
+
+cluster #1206
+['bring_ACT17772767257648848']
+
+cluster #1207
+['add_ACT17772681568298983']
+
+cluster #1208
+['growing_ACT17772884306393222']
+
+cluster #1209
+['continues_ACT18164465577507898']
+
+cluster #1210
+['Announces_ACT17772999938554511']
+
+cluster #1211
+['Availability_ACT17772963905228053']
+
+cluster #1212
+['announced_ACT17772999938554511']
+
+cluster #1213
+['added_ACT17772681568298983']
+
+cluster #1214
+['growing_ACT17772884306393222']
+
+cluster #1215
+['Confirms_ACT17772982137810312']
+
+cluster #1216
+['Availability_ACT17772963905228053']
+
+cluster #1217
+['confirmed_ACT17772982137810312']
+
+cluster #1218
+['take_Singleton_ACT_15_42_3ecbplus']
+
+cluster #1219
+['availability_ACT17772963905228053']
+
+cluster #1220
+['add_ACT17772681568298983']
+
+cluster #1221
+['continues_ACT18164465577507898']
+
+cluster #1222
+['growing_ACT17772884306393222']
+
+cluster #1223
+['Confirms_ACT17772982137810312']
+
+cluster #1224
+['Carry_ACT17772767257648848']
+
+cluster #1225
+['confirmed_ACT17772982137810312']
+
+cluster #1226
+['said_Singleton_ACT_20_42_4ecbplus']
+
+cluster #1227
+['carry_ACT17772767257648848']
+
+cluster #1228
+['pricing_Singleton_ACT_19_42_4ecbplus']
+
+cluster #1229
+['availability_ACT17772963905228053']
+
+cluster #1230
+['growing_ACT17772884306393222']
+
+cluster #1231
+['add_ACT17772681568298983']
+
+cluster #1232
+['continues_ACT18164465577507898']
+
+cluster #1233
+['Pre - Order_ACT18164226179301369']
+
+cluster #1234
+['added_ACT17772681568298983']
+
+cluster #1235
+['announced_ACT17772999938554511']
+
+cluster #1236
+['growing_ACT17772884306393222']
+
+cluster #1237
+['Adds_ACT17772681568298983']
+
+cluster #1238
+['announced_ACT17772999938554511']
+
+cluster #1239
+['coming_ACT17772681568298983']
+
+cluster #1240
+['Confirms_ACT17772982137810312']
+
+cluster #1241
+['Carry_ACT17772767257648848']
+
+cluster #1242
+['pre - registration_ACT18164238287486070']
+
+cluster #1243
+['starting_ACT18164251707547444']
+
+cluster #1244
+['carrying_ACT17772767257648848']
+
+cluster #1245
+['keyboard touting_Singleton_ACT_10_42_7ecbplus']
+
+cluster #1246
+['announced_ACT17772999938554511']
+
+cluster #1247
+['Carry_ACT17772767257648848']
+
+cluster #1248
+['carry_ACT17772767257648848']
+
+cluster #1249
+['business registration_ACT18164238287486070']
+
+cluster #1250
+['announced_ACT17772999938554511']
+
+cluster #1251
+['Preorders_ACT18164226179301369']
+
+cluster #1252
+['statement_ACT17772982137810312']
+
+cluster #1253
+['according to_Singleton_ACT_43_42_9ecbplus']
+
+cluster #1254
+['preorder_ACT18164226179301369']
+
+cluster #1255
+['available_ACT17772963905228053']
+
+cluster #1256
+['selling_Singleton_ACT_20_43_10ecbplus']
+
+cluster #1257
+['starts_Singleton_ACT_53_43_10ecbplus']
+
+cluster #1258
+['buys_ACT17773499018825369']
+
+cluster #1259
+['Acquire_ACT17773499018825369']
+
+cluster #1260
+['Acquire_ACT17773499018825369']
+
+cluster #1261
+['acquires_ACT17773499018825369']
+
+cluster #1262
+['market_ACT18182652973066989']
+
+cluster #1263
+['grab share_ACT28697609249659077']
+
+cluster #1264
+['market_ACT18182652973066989']
+
+cluster #1265
+['bet_Singleton_ACT_16_43_13ecbplus']
+
+cluster #1266
+['announced_ACT17774014614037773']
+
+cluster #1267
+['reached_ACT18183335645169054']
+
+cluster #1268
+['acquire_ACT17773499018825369']
+
+cluster #1269
+['acquire_ACT17773499018825369']
+
+cluster #1270
+['make a run_ACT28697609249659077']
+
+cluster #1271
+['acquire_ACT17773499018825369']
+
+cluster #1272
+['attempt_Singleton_ACT_17_43_14ecbplus']
+
+cluster #1273
+['market_ACT18182652973066989']
+
+cluster #1274
+['snaps up_ACT17773499018825369']
+
+cluster #1275
+['entering_ACT28697609249659077']
+
+cluster #1276
+['Announces_ACT17774014614037773']
+
+cluster #1277
+['Accelerate_Singleton_ACT_17_43_1ecbplus']
+
+cluster #1278
+['Investment_Singleton_ACT_16_43_1ecbplus']
+
+cluster #1279
+['Cloud Server Strategy_Singleton_ACT_18_43_1ecbplus']
+
+cluster #1280
+['excited_Singleton_ACT_44_43_1ecbplus']
+
+cluster #1281
+['join_ACT17773499018825369']
+
+cluster #1282
+['Acquire_ACT17773499018825369']
+
+cluster #1283
+['Accelerates_Singleton_ACT_16_43_2ecbplus']
+
+cluster #1284
+['signed_ACT18182825355894863']
+
+cluster #1285
+['announced_ACT17774014614037773']
+
+cluster #1286
+['paid_ACT18183131808540791']
+
+cluster #1287
+['agreement_ACT17773999324496406']
+
+cluster #1288
+['acquire_ACT17773499018825369']
+
+cluster #1289
+['Enters_ACT28697609249659077']
+
+cluster #1290
+['pay_ACT18183131808540791']
+
+cluster #1291
+['get into_ACT28697609249659077']
+
+cluster #1292
+['microservers_ACT18182652973066989']
+
+cluster #1293
+['buys_ACT17773499018825369']
+
+cluster #1294
+['acquiring_ACT17773499018825369']
+
+cluster #1295
+['Buys_ACT17773499018825369']
+
+cluster #1296
+['Enters_ACT28697609249659077']
+
+cluster #1297
+['buying_ACT17773499018825369']
+
+cluster #1298
+['puts_ACT28697609249659077']
+
+cluster #1299
+['announced_ACT17774014614037773']
+
+cluster #1300
+['systems business_ACT18182652973066989']
+
+cluster #1301
+['acquiring_ACT17773499018825369']
+
+cluster #1302
+['disrupts_ACT18182732409394081']
+
+cluster #1303
+['Defensive_Singleton_ACT_39_43_6ecbplus']
+
+cluster #1304
+['Puts_Singleton_ACT_13_43_6ecbplus']
+
+cluster #1305
+['develop_Singleton_ACT_22_43_6ecbplus']
+
+cluster #1306
+['paying_ACT18183131808540791']
+
+cluster #1307
+['partnership_Singleton_ACT_19_43_6ecbplus']
+
+cluster #1308
+['Acquire_ACT17773499018825369']
+
+cluster #1309
+['announced_ACT17774014614037773']
+
+cluster #1310
+['acquire_ACT17773499018825369']
+
+cluster #1311
+['position_Singleton_ACT_20_43_9ecbplus']
+
+cluster #1312
+['competition_Singleton_ACT_21_43_9ecbplus']
+
+cluster #1313
+['market_ACT18182652973066989']
+
+cluster #1314
+['regain share_ACT28697609249659077']
+
+cluster #1315
+['completed_INTRA_ACT_38431_43_9ecbplus']
+
+cluster #1316
+['strategy_ACT18182689076261745']
+
+cluster #1317
+['part_Singleton_ACT_35_43_9ecbplus']
+
+cluster #1318
+['shelled out_ACT18183131808540791']
+
+cluster #1319
+['Acquire_ACT18185002852018286']
+
+cluster #1320
+['acquire_ACT18185002852018286']
+
+cluster #1321
+['design_ACT18230030630303060']
+
+cluster #1322
+['specializes_ACT18232745396512766']
+
+cluster #1323
+['announced_ACT18222676237217252']
+
+cluster #1324
+['definitive agreement_ACT18229866560177907']
+
+cluster #1325
+['operations support_ACT18232711193236713']
+
+cluster #1326
+['planning_ACT18222691428699319']
+
+cluster #1327
+['signed_ACT18229854403661682']
+
+cluster #1328
+['consulting_ACT18229838123411727']
+
+cluster #1329
+['financial terms_ACT18229881273950354']
+
+cluster #1330
+['expected_ACT18185025315392953']
+
+cluster #1331
+['disclosed_NEG18229896488387023']
+
+cluster #1332
+['it_ACT18229866560177907']
+
+cluster #1333
+['completed_ACT18185052441852416']
+
+cluster #1334
+['chases_Singleton_ACT_11_44_11ecbplus']
+
+cluster #1335
+['makes_Singleton_ACT_10_44_11ecbplus']
+
+cluster #1336
+['announced_ACT18222676237217252']
+
+cluster #1337
+['sales_Singleton_ACT_15_44_11ecbplus']
+
+cluster #1338
+['buying_ACT18185002852018286']
+
+cluster #1339
+['consulting services_ACT18229838123411727']
+
+cluster #1340
+['provides_Singleton_ACT_17_44_11ecbplus']
+
+cluster #1341
+['undisclosed_NEG18229896488387023']
+
+cluster #1342
+['according to_Singleton_ACT_32_44_11ecbplus']
+
+cluster #1343
+['Engineers_ACT28843563830795595']
+
+cluster #1344
+['undisclosed_NEG18229896488387023']
+
+cluster #1345
+['buy_ACT18185002852018286']
+
+cluster #1346
+['agreed_ACT28844413057932866']
+
+cluster #1347
+['engineering_ACT18229838123411727']
+
+cluster #1348
+['exit_Singleton_ACT_17_44_12ecbplus']
+
+cluster #1349
+['provide_Singleton_ACT_18_44_12ecbplus']
+
+cluster #1350
+['that_ACT18229866560177907']
+
+cluster #1351
+['buy_ACT18185002852018286']
+
+cluster #1352
+['said_ACT18222676237217252']
+
+cluster #1353
+['technology planning_ACT18222691428699319']
+
+cluster #1354
+['operations support_ACT18232711193236713']
+
+cluster #1355
+['consulting_ACT18229838123411727']
+
+cluster #1356
+['agreed_ACT28844413057932866']
+
+cluster #1357
+['specializing_ACT18232745396512766']
+
+cluster #1358
+['acquire_ACT18185002852018286']
+
+cluster #1359
+['design_ACT18230030630303060']
+
+cluster #1360
+['consulting_ACT18229838123411727']
+
+cluster #1361
+['news\t_Singleton_ACT_9_44_15ecbplus']
+
+cluster #1362
+['buy_ACT18185002852018286']
+
+cluster #1363
+['consulting_ACT18229838123411727']
+
+cluster #1364
+['undisclosed_NEG18229896488387023']
+
+cluster #1365
+['buy_ACT18185002852018286']
+
+cluster #1366
+['agreed_ACT28844413057932866']
+
+cluster #1367
+['said_ACT18222676237217252']
+
+cluster #1368
+['Consulting_ACT18229838123411727']
+
+cluster #1369
+['Expand_Singleton_ACT_7_44_2ecbplus']
+
+cluster #1370
+['Services_Singleton_ACT_73_44_2ecbplus']
+
+cluster #1371
+['planning_ACT18222691428699319']
+
+cluster #1372
+['announced_ACT18222676237217252']
+
+cluster #1373
+['consulting_ACT18229838123411727']
+
+cluster #1374
+['agreement_ACT18229866560177907']
+
+cluster #1375
+['signed_ACT18229854403661682']
+
+cluster #1376
+['specializing_ACT18232745396512766']
+
+cluster #1377
+['acquire_ACT18185002852018286']
+
+cluster #1378
+['design_ACT18230030630303060']
+
+cluster #1379
+['operations support_ACT18232711193236713']
+
+cluster #1380
+['Financial terms_ACT18229881273950354']
+
+cluster #1381
+['disclosed_NEG18229896488387023']
+
+cluster #1382
+['design_ACT18230030630303060']
+
+cluster #1383
+['gets into_Singleton_ACT_5_44_3ecbplus']
+
+cluster #1384
+['acquires_ACT18185002852018286']
+
+cluster #1385
+['acquires_ACT18185002852018286']
+
+cluster #1386
+['planning_ACT18222691428699319']
+
+cluster #1387
+['definitive agreement_ACT18229866560177907']
+
+cluster #1388
+['operations support_ACT18232711193236713']
+
+cluster #1389
+['announced_ACT18222676237217252']
+
+cluster #1390
+['signed_ACT18229854403661682']
+
+cluster #1391
+['acquire_ACT18185002852018286']
+
+cluster #1392
+['specializing_ACT18232745396512766']
+
+cluster #1393
+['consulting_ACT18229838123411727']
+
+cluster #1394
+['design_ACT18230030630303060']
+
+cluster #1395
+['Cooling_ACT18222721790838235']
+
+cluster #1396
+['Acquire_ACT18185002852018286']
+
+cluster #1397
+['said_ACT18222676237217252']
+
+cluster #1398
+['consulting_ACT18229838123411727']
+
+cluster #1399
+['agreed_ACT28844413057932866']
+
+cluster #1400
+['specializes_ACT18232745396512766']
+
+cluster #1401
+['buy_ACT18185002852018286']
+
+cluster #1402
+['energy efficiency_Singleton_ACT_15_44_5ecbplus']
+
+cluster #1403
+['cooling_ACT18222721790838235']
+
+cluster #1404
+['Consulting_ACT18229838123411727']
+
+cluster #1405
+['Snaps Up_ACT18185002852018286']
+
+cluster #1406
+['help_Singleton_ACT_13_44_6ecbplus']
+
+cluster #1407
+['expand_Singleton_ACT_14_44_6ecbplus']
+
+cluster #1408
+['that_ACT18185002852018286']
+
+cluster #1409
+['consulting services_ACT18229838123411727']
+
+cluster #1410
+['expand_Singleton_ACT_17_44_6ecbplus']
+
+cluster #1411
+['offers_Singleton_ACT_19_44_6ecbplus']
+
+cluster #1412
+['acquire_ACT18185002852018286']
+
+cluster #1413
+['disclosed_NEG18229896488387023']
+
+cluster #1414
+['Financial details_ACT18229881273950354']
+
+cluster #1415
+['green consultancy_ACT18229838123411727']
+
+cluster #1416
+['acquire_ACT18185002852018286']
+
+cluster #1417
+['agreement_ACT18229866560177907']
+
+cluster #1418
+['announced_ACT18222676237217252']
+
+cluster #1419
+['support_Singleton_ACT_24_44_7ecbplus']
+
+cluster #1420
+['energy - efficient computing_Singleton_ACT_25_44_7ecbplus']
+
+cluster #1421
+['signed_ACT18229854403661682']
+
+cluster #1422
+['acquire_ACT18185002852018286']
+
+cluster #1423
+['undisclosed_NEG18229896488387023']
+
+cluster #1424
+['efforts_Singleton_ACT_18_44_7ecbplus']
+
+cluster #1425
+['consulting_ACT18229838123411727']
+
+cluster #1426
+['consultant_ACT18229838123411727']
+
+cluster #1427
+['lands_ACT18185002852018286']
+
+cluster #1428
+['planning_ACT18222691428699319']
+
+cluster #1429
+['operations support_ACT18232711193236713']
+
+cluster #1430
+['Extending_Singleton_ACT_11_44_8ecbplus']
+
+cluster #1431
+['ripening_Singleton_ACT_13_44_8ecbplus']
+
+cluster #1432
+['reach_Singleton_ACT_12_44_8ecbplus']
+
+cluster #1433
+['specializing_ACT18232745396512766']
+
+cluster #1434
+['consulting_ACT18229838123411727']
+
+cluster #1435
+['design_ACT18230030630303060']
+
+cluster #1436
+['announced_ACT18222676237217252']
+
+cluster #1437
+['financial details_ACT18229881273950354']
+
+cluster #1438
+['disclosed_NEG18229896488387023']
+
+cluster #1439
+['convicts_ACT18223266255948982']
+
+cluster #1440
+['death_ACT18223179370767574']
+
+cluster #1441
+['convicted_ACT18223266255948982']
+
+cluster #1442
+['shooting death_ACT18223179370767574']
+
+cluster #1443
+['pregnant_ACT28866887365501445']
+
+cluster #1444
+['first - degree murder_ACT18223465632264326']
+
+cluster #1445
+['death_ACT18223179370767574']
+
+cluster #1446
+['convicting_ACT18223266255948982']
+
+cluster #1447
+['deliberated_ACT18243449533676526']
+
+cluster #1448
+['Shooting Death_ACT18223179370767574']
+
+cluster #1449
+['Pregnant_ACT28866887365501445']
+
+cluster #1450
+['Convicts_ACT18223266255948982']
+
+cluster #1451
+['shooting death_ACT18223179370767574']
+
+cluster #1452
+['convicted_ACT18223266255948982']
+
+cluster #1453
+['first - degree murder_ACT18223465632264326']
+
+cluster #1454
+['pregnant_ACT28866887365501445']
+
+cluster #1455
+['deliberated_ACT18243449533676526']
+
+cluster #1456
+['convicting_ACT18223266255948982']
+
+cluster #1457
+['death_ACT18223179370767574']
+
+cluster #1458
+['pregnant_ACT28866887365501445']
+
+cluster #1459
+['underway_Singleton_ACT_42_45_12ecbplus']
+
+cluster #1460
+['deaths_ACT18223179370767574']
+
+cluster #1461
+['murder_ACT18223465632264326']
+
+cluster #1462
+['trial_ACT18223193770131566']
+
+cluster #1463
+['shooting death_ACT18223179370767574']
+
+cluster #1464
+['first - degree murder_ACT18223465632264326']
+
+cluster #1465
+['death_ACT18223414428934356']
+
+cluster #1466
+['resulting_Singleton_ACT_51_45_12ecbplus']
+
+cluster #1467
+['trial_ACT18223193770131566']
+
+cluster #1468
+['expected_Singleton_ACT_29_45_12ecbplus']
+
+cluster #1469
+['reported_Singleton_ACT_48_45_12ecbplus']
+
+cluster #1470
+['last_Singleton_ACT_43_45_12ecbplus']
+
+cluster #1471
+['Killing_ACT18223428901970912']
+
+cluster #1472
+['Pregnant_ACT28866887365501445']
+
+cluster #1473
+['Guilty_Singleton_ACT_95_45_1ecbplus']
+
+cluster #1474
+['found_ACT18223266255948982']
+
+cluster #1475
+['first - degree murder_ACT18223465632264326']
+
+cluster #1476
+['death_ACT18223414428934356']
+
+cluster #1477
+['shooting death_ACT18223179370767574']
+
+cluster #1478
+['guilty_ACT18223282001061069']
+
+cluster #1479
+['deliberated_ACT18243449533676526']
+
+cluster #1480
+['first - degree murder_ACT18223465632264326']
+
+cluster #1481
+['finding_ACT18223266255948982']
+
+cluster #1482
+['guilty_ACT18223282001061069']
+
+cluster #1483
+['killing_ACT18223428901970912']
+
+cluster #1484
+['pregnant_ACT28866887365501445']
+
+cluster #1485
+['guilty_ACT18223282001061069']
+
+cluster #1486
+['deaths_ACT18223179370767574']
+
+cluster #1487
+['found_ACT18223266255948982']
+
+cluster #1488
+['according to_ACT18223644583378413']
+
+cluster #1489
+['guilty_ACT18223282001061069']
+
+cluster #1490
+['first - degree murder_ACT18223465632264326']
+
+cluster #1491
+['accused_ACT18223452941764084']
+
+cluster #1492
+['fatally shooting_ACT18223179370767574']
+
+cluster #1493
+['not guilty_ACT18223496806228648']
+
+cluster #1494
+['deaths_ACT18223179370767574']
+
+cluster #1495
+['pleads_ACT18223480382299084']
+
+cluster #1496
+['pleaded_ACT18223480382299084']
+
+cluster #1497
+['deaths_ACT18223179370767574']
+
+cluster #1498
+['first - degree murder_ACT18223465632264326']
+
+cluster #1499
+['not guilty_ACT18223496806228648']
+
+cluster #1500
+['set_ACT18223221807463296']
+
+cluster #1501
+['Trial_ACT18223193770131566']
+
+cluster #1502
+['accused_ACT18223452941764084']
+
+cluster #1503
+['fatally shooting_ACT18223179370767574']
+
+cluster #1504
+['killing_ACT18223428901970912']
+
+cluster #1505
+['guilty_ACT18223282001061069']
+
+cluster #1506
+['pregnant_ACT28866887365501445']
+
+cluster #1507
+['found_ACT18223266255948982']
+
+cluster #1508
+['first - degree murder_ACT18223465632264326']
+
+cluster #1509
+['deaths_ACT18223179370767574']
+
+cluster #1510
+['guilty_ACT18223282001061069']
+
+cluster #1511
+['according to_Singleton_ACT_30_45_4ecbplus']
+
+cluster #1512
+['accused_ACT18223452941764084']
+
+cluster #1513
+['fatally shooting_ACT18223179370767574']
+
+cluster #1514
+['support_NEG18223364284240238']
+
+cluster #1515
+['shoots dead_ACT18223179370767574']
+
+cluster #1516
+['pregnant_ACT28866887365501445']
+
+cluster #1517
+['want_NEG18223334195967815']
+
+cluster #1518
+['guilty_ACT18223282001061069']
+
+cluster #1519
+['pregnant_ACT28866887365501445']
+
+cluster #1520
+['first degree murder_ACT18223465632264326']
+
+cluster #1521
+['unborn_NEG18223675193533947']
+
+cluster #1522
+['found_ACT18223266255948982']
+
+cluster #1523
+['sentencing_ACT18223392871635630']
+
+cluster #1524
+['scheduled_ACT18243438453750342']
+
+cluster #1525
+['Pregnant_ACT28866887365501445']
+
+cluster #1526
+['Shooting Death_ACT18223179370767574']
+
+cluster #1527
+['Convicts_ACT18223266255948982']
+
+cluster #1528
+['first - degree murder_ACT18223465632264326']
+
+cluster #1529
+['shooting death_ACT18223179370767574']
+
+cluster #1530
+['pregnant_ACT28866887365501445']
+
+cluster #1531
+['convicted_ACT18223266255948982']
+
+cluster #1532
+['convicting_ACT18223266255948982']
+
+cluster #1533
+['death_ACT18223428901970912']
+
+cluster #1534
+['deliberated_ACT18243449533676526']
+
+cluster #1535
+["support'_NEG18223364284240238"]
+
+cluster #1536
+['want_NEG18223334195967815']
+
+cluster #1537
+['pregnant_ACT28866887365501445']
+
+cluster #1538
+['GUILTY_ACT18223282001061069']
+
+cluster #1539
+['shooting dead_ACT18223179370767574']
+
+cluster #1540
+['found_ACT18223266255948982']
+
+cluster #1541
+['convicted_ACT18223266255948982']
+
+cluster #1542
+['refused_NEG18223346641361572']
+
+cluster #1543
+['unborn_NEG18223675193533947']
+
+cluster #1544
+['shooting dead_ACT18223179370767574']
+
+cluster #1545
+['pregnant_ACT28866887365501445']
+
+cluster #1546
+['convicting_ACT18223266255948982']
+
+cluster #1547
+['deliberated_ACT18243449533676526']
+
+cluster #1548
+['death_ACT18223428901970912']
+
+cluster #1549
+['GUILTY_ACT18223282001061069']
+
+cluster #1550
+['found_ACT18223266255948982']
+
+cluster #1551
+['shooting dead_ACT18223179370767574']
+
+cluster #1552
+['pregnant_ACT28866887365501445']
+
+cluster #1553
+['refused_NEG18223346641361572']
+
+cluster #1554
+['unborn_NEG18223675193533947']
+
+cluster #1555
+['convicted_ACT18223266255948982']
+
+cluster #1556
+['pregnant_ACT28866887365501445']
+
+cluster #1557
+['shooting dead_ACT18223179370767574']
+
+cluster #1558
+['convicting_ACT18223266255948982']
+
+cluster #1559
+['deliberated_ACT18243449533676526']
+
+cluster #1560
+['not guilty_ACT18223496806228648']
+
+cluster #1561
+['deaths_ACT18223179370767574']
+
+cluster #1562
+['pleaded_ACT18223480382299084']
+
+cluster #1563
+['first - degree murder_ACT18223465632264326']
+
+cluster #1564
+['fatally shooting_ACT18223179370767574']
+
+cluster #1565
+['Trial_ACT18223193770131566']
+
+cluster #1566
+['set_ACT18223221807463296']
+
+cluster #1567
+['accused_ACT18223452941764084']
+
+cluster #1568
+['practicing_Singleton_ACT_21_36_8ecb', 'practicing_Singleton_ACT_18_36_1ecb', 'practising_Singleton_ACT_35_36_3ecb']
+
+cluster #1569
+['charged_ACT17642760725664640', 'charged_ACT17642760725664640', 'charged_ACT17642760725664640', 'charged_ACT18223452941764084', 'charged_ACT17642344350988871', 'charged_ACT17642344350988871', 'charged_ACT17720769677783913', 'charged_ACT17642344350988871', 'charged_ACT17720769677783913', 'charged_ACT18223452941764084', 'charged_ACT17642344350988871', 'charges_ACT17642344350988871', 'charges_ACT17642760725664640', 'charges_ACT18223452941764084', 'charges_ACT18223452941764084', 'charges_ACT18223452941764084', 'charges_ACT18223452941764084', 'Charges_ACT17642344350988871', 'charges_ACT17642344350988871', 'charges_ACT17642344350988871', 'charges_ACT17642344350988871']
+
+cluster #1570
+['announced_ACT17774382244993466', 'announced_ACT17720553486167782']
+
+cluster #1571
+['arrested_ACT17642853147528564', 'arrested_ACT17642853147528564', 'arrested_ACT17642853147528564', 'arrested_ACT17642853147528564', 'arrested_ACT17642853147528564', 'arrested_ACT17642853147528564', 'arrested_ACT17642853147528564', 'arrested_ACT17642853147528564', 'arrested_ACT17642853147528564', 'arrested_ACT17642853147528564', 'arrested_ACT17642853147528564', 'arrested_ACT17642853147528564', 'arrests_ACT17642853147528564', 'arrested_ACT17642853147528564', 'arrested_ACT17642853147528564', 'ARRESTED_ACT17642853147528564']
+
+cluster #1572
+['made_Singleton_ACT_60_43_2ecb', 'made_Singleton_ACT_34_36_2ecb', 'made official_ACT17773081680210382', 'made_Singleton_ACT_15_43_13ecbplus', 'make_Singleton_ACT_69_44_5ecb', 'make_Singleton_ACT_113_44_7ecb']
+
+cluster #1573
+['said_ACT17720542426126151', 'said_ACT17720542426126151', 'said_Singleton_ACT_28_37_5ecb', 'said_Singleton_ACT_55_41_1ecb', 'said_ACT18149955732134942', 'said_ACT18149955732134942', 'said_ACT18149955732134942', 'said_ACT18149955732134942', 'said_ACT17772387402419554', 'said_Singleton_ACT_109_41_4ecb']
+
+cluster #1574
+['polygamy_ACT17642774053647358', 'polygamy_ACT17642774053647358', 'polygamy_ACT17642774053647358', 'polygamy_ACT17642774053647358', 'Polygamy_ACT28671684617581995', 'Polygamy_ACT17642774053647358', 'POLYGAMY_ACT17642774053647358', 'polygamy_ACT17642774053647358', '"spiritual marriages_ACT17716990655179680', '"spiritual marriages_ACT17716990655179680', 'polygamous marriages_ACT17716990655179680', 'Marriage_ACT17716990655179680', 'bigamy_ACT17642553422075745', 'bigamy_ACT17642553422075745', 'abortion_ACT18223376076339342', 'abortion_ACT18223376076339342']
+
+cluster #1575
+['said_ACT18096225619383879', 'said_Singleton_ACT_49_36_3ecb', 'said_Singleton_ACT_42_36_6ecb']
+
+cluster #1576
+['conference_Singleton_ACT_109_43_7ecb', 'conference_Singleton_ACT_18_36_5ecb', 'conference_ACT17764126188523329', 'conference_ACT17764126188523329', 'Macworld Expo 2009_ACT18091701306793263', 'Macworld Expo_ACT18091701306793263', 'Macworld_ACT18091701306793263', 'WWDC_ACT17764126188523329', 'WWDC_ACT17764126188523329', 'WWDC_ACT17764126188523329', 'MacWorld_ACT18091701306793263', 'Macworld_ACT18091701306793263', 'WWDC_ACT17764126188523329', 'WWDC_ACT17764126188523329', 'WWDC_ACT17764126188523329', 'WWDC Keynote_ACT18089869304330059', 'Macworld 2009 keynote_ACT18091701306793263', 'event_ACT18091701306793263']
+
+cluster #1577
+['issued_Singleton_ACT_28_37_11ecbplus', 'ISSUED_Singleton_ACT_46_36_7ecb', 'release_Singleton_ACT_16_42_10ecbplus', 'release_ACT17764340317374314', 'release_ACT17773055657381125', 'Launch_ACT18164251707547444']
+
+cluster #1578
+['began_Singleton_ACT_42_41_6ecbplus', 'began_Singleton_ACT_43_36_3ecb', 'begins_ACT18164251707547444', 'Begins_ACT18164251707547444', 'begin_ACT18164251707547444']
+
+cluster #1579
+['announced_ACT18222853762799791', 'announced_ACT17720553486167782', 'announced_ACT18222853762799791', 'announced_ACT18222676237217252', 'unveiled_ACT17764092395475677', 'unveiled_ACT17764340317374314', 'unveiled_ACT17745258351334464', 'unveiled_ACT17764092395475677', 'unveiled_ACT17764092395475677', 'unveiled_ACT18222853762799791', 'unveiled_ACT17764092395475677', 'unveiled_ACT17764340317374314', 'unveiled_ACT17764092395475677', 'unveiled_ACT17764092395475677', 'unveiled_ACT17745451267577520', 'unveiled_ACT17764340317374314', 'unveiled_ACT17745451267577520', 'unveils_ACT17764092395475677', 'unveils_ACT17764092395475677', 'unveils_ACT17764092395475677', 'Unveils_ACT17764092395475677', 'unveils_ACT17764092395475677', 'Unveils_ACT17764092395475677', 'introduced_ACT17764340317374314', 'introduced_ACT17764340317374314', 'launched_ACT17764340317374314', 'launches_ACT17764092395475677']
+
+cluster #1580
+['move_ACT18185002852018286', 'MOVED IN_Singleton_ACT_50_36_7ecb', 'move_ACT17773499018825369', 'Acquisition_ACT17773499018825369', 'acquisition_ACT17773499018825369', 'Acquisition_ACT17773499018825369', 'acquisition_ACT17774320253942795', 'acquisition_ACT17773499018825369', 'acquisition_ACT18185002852018286', 'acquisition_ACT17774320253942795', 'merger_ACT17774320253942795', 'acquisition_ACT18185002852018286', 'acquisition_ACT17774320253942795', 'purchase_ACT17774320253942795', 'acquisition_ACT17773499018825369', 'Acquisition_ACT18185002852018286', 'acquisition_ACT17773499018825369', 'acquisition_ACT18222897859726438', 'acquisition_ACT18185002852018286', 'merger_ACT17774320253942795', 'acquisition_ACT18185002852018286', 'acquisition_ACT18222897859726438', 'acquisition_ACT17774320253942795', 'acquisition_ACT18222897859726438', 'acquisition_ACT17774320253942795', 'acquisition_ACT18222897859726438', 'merger_ACT17774320253942795', 'acquisition_ACT18222897859726438', 'acquisition_ACT18185002852018286', 'purchase_ACT18222897859726438', 'acquisition_ACT18222897859726438', 'acquisition_ACT17774320253942795', 'merger_ACT17774320253942795', 'transaction_ACT18229866560177907', 'transaction_ACT18222897859726438', 'transaction_ACT18229866560177907', 'merger_ACT17774320253942795', 'merger_ACT17774320253942795', 'transaction_ACT18222908848679496', 'transaction_ACT18222908848679496', 'purchase_ACT17774320253942795', 'takeover_ACT17774320253942795', 'merger_ACT18222897859726438', 'takeover_ACT17774320253942795', 'purchase_ACT17774320253942795', 'purchase_ACT17774320253942795', 'deal_ACT18222897859726438', 'merger_ACT18222897859726438', 'purchase_ACT18222897859726438', 'purchase_ACT18222897859726438', 'deal_ACT18222897859726438', 'deal_ACT17774336861337659', 'deal_ACT18222908848679496', 'deal_ACT18222908848679496', 'deal_ACT17774336861337659', 'deal_ACT18222908848679496', 'deal_ACT18222908848679496', 'deal_ACT18222908848679496', 'deal_ACT17774320253942795', 'deal_ACT18229866560177907', 'Business_ACT18182652973066989', 'deal_ACT17774320253942795', 'Deal_ACT18229866560177907', 'deal_ACT17774320253942795', 'deal_ACT18222908848679496', 'deal_ACT17774320253942795', 'deal_ACT17774320253942795', 'deal_ACT17773999324496406', 'deal_ACT18222897859726438', 'deal_ACT18222897859726438', 'deal_ACT17774320253942795', 'deal_ACT18222908848679496', 'business_ACT18182652973066989', 'Business_ACT18182652973066989', 'deal_ACT17774320253942795', 'deal_ACT17774320253942795', 'agreement_ACT17773999324496406', 'purchase_ACT17773499018825369', 'Strategy_ACT18182689076261745', 'combination_Singleton_ACT_101_43_5ecb']
+

@@ -1,0 +1,28 @@
+{ "test_path": "trained_models_and_data/processed/full_swirl_ecb/test_data",
+  "test_path_topics" : "feature_sets/all_sents/test_data",
+  
+  "cd_event_model_path": "trained_models_and_data/model_weights.pth",
+  "cd_entity_model_path": "trained_models_and_data/model_weights_entity.pth",
+
+  "gpu_num": 0,
+  "event_merge_threshold": 0.5,
+  "entity_merge_threshold": 0.5,
+  "use_elmo": true,
+  "use_args_feats": true,
+  "use_binary_feats": true,
+
+  "test_use_gold_mentions": true,
+  "wd_entity_coref_file": "data/external/stanford_neural_wd_entity_coref_out/ecb_wd_coref.json",
+  "merge_iters": 2,
+
+  "load_predicted_topics": true,
+  "event_encoder_model": "ablation_models/biencoder/best_model",
+  "predicted_topics_path": "data/external/document_clustering/predicted_topics",
+
+  "seed": 1,
+  "random_seed": 2048,
+
+  "event_gold_file_path": "data/gold/cybulska_gold/CD_test_event_mention_based.key_conll",
+  "entity_gold_file_path": "data/gold/cybulska_gold/CD_test_entity_mention_based.key_conll"
+  
+}

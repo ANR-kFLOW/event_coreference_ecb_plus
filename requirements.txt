@@ -1,0 +1,4 @@
+transformers
+tqdm
+scipy
+faiss-cpu
