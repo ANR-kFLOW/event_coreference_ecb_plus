@@ -12,7 +12,7 @@
     "epochs": 50,
     "event_merge_threshold": 0.5,
     "feature_size": 50,
-    "glove_path": "data/external/glove.6B.300d.txt",
+    "glove_path": "glove.6B/glove.6B.300d.txt",
     "gpu_num": 0,
 
     "load_predicted_topics": false,

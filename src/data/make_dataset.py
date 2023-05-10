@@ -223,6 +223,7 @@ def read_ecb_plus_doc(selected_sent_list, doc_filename, doc_id, file_obj,
     :param selected_sent_list: the selected sentences to extract
     :param doc_filename: the ECB+ file to extract
     :param doc_id: the document ID
+
     :param file_obj: a file object for writing the document text.
     :param extracted_mentions: a list of split's extracted mentions
     :param parse_all: a boolean variable indicates whether to read all the ECB+ corpus as in

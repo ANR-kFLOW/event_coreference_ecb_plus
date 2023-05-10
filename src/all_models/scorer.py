@@ -1,6 +1,6 @@
 import numpy as np
 from collections import Counter
-from sklearn.utils.linear_assignment_ import linear_assignment
+from scipy.optimize import linear_sum_assignment as linear_assignment
 
 """
 Mostly borrowed from <https://github.com/clarkkev/deep-coref/blob/master/evaluation.py>

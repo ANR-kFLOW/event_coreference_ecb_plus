@@ -27,7 +27,3 @@ class ElmoEmbedding(object):
         output = np.average(embeddings, axis=0)
 
         return output
-
-
-
-

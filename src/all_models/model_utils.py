@@ -14,6 +14,8 @@ import _pickle as cPickle
 from bcubed_scorer import *
 import matplotlib.pyplot as plt
 from spacy.lang.en import English
+from tqdm import tqdm
+from itertools import combinations
 
 from coarse import *
 import copy
@@ -557,7 +559,7 @@ def loadGloVe(glove_filename):
     '''
     vocab = []
     embd = []
-    file = open(glove_filename, 'r')
+    file = open(glove_filename, 'r', encoding="utf8")
     for line in file.readlines():
         row = line.strip().split(' ')
         if len(row) > 1:
@@ -644,13 +646,23 @@ def save_check_point(model, fname):
     torch.save(model, fname)
 
 
-def load_check_point(fname):
+def load_check_point(fname, model_config_dict):
     '''
     Loads Pytorch model from a file
     :param fname: model's filename
     :return:Pytorch model
     '''
-    return torch.load(fname)
+    from model_factory import create_model, factory_load_embeddings
+
+    factory_load_embeddings(
+        model_config_dict
+    )
+    model = create_model(model_config_dict)
+    model.load_state_dict(torch.load(fname))
+    print("Loaded model!")
+
+    return model
+    #return torch.load(fname)
 
 
 def create_gold_clusters(mentions):
@@ -1034,9 +1046,30 @@ def generate_cluster_pairs(clusters, is_train, mention_pairs):
         print('Using under sampling with p = {}'.format(p))
         logging.info('Using under sampling with p = {}'.format(p))
 
-    for cluster_1 in clusters:
-        for cluster_2 in clusters:
-            if cluster_1 != cluster_2:
+
+    start = 0 #This is used so no double comparison is made
+
+    #for (i, cluster_1) in tqdm(enumerate(clusters)):
+
+    pairs = combinations(clusters[:200], 2) #limit it to the first 200
+    del clusters
+    print("Pairs generated")
+    pairs = list(pairs)
+
+    '''
+    for i in tqdm(range(len(clusters))):
+        cluster_1 = clusters[i]
+
+        if i ==200:
+            break
+
+        for j in range(start, len(clusters)):
+            cluster_2 = clusters[j]
+
+
+        #for cluster_2 in clusters:
+            #if cluster_1 != cluster_2:
+            if i != j:
                 if is_train:
                     q = calc_q(cluster_1, cluster_2)
                     if (cluster_1, cluster_2, q) \
@@ -1052,22 +1085,27 @@ def generate_cluster_pairs(clusters, is_train, mention_pairs):
                             pairs.append((cluster_1, cluster_2, q))
                         test_pairs.append((cluster_1, cluster_2))
                 else:
-                    if (cluster_1, cluster_2) not in pairs and \
-                            (cluster_2, cluster_1) not in pairs:
+                    #if (cluster_1, cluster_2) not in pairs and (cluster_2, cluster_1) not in pairs:
+                    pairs.append((cluster_1, cluster_2))
 
-                        full_combos = [
-                            pair for mention_1 in cluster_1.mentions
-                            for mention_2 in cluster_2.mentions
-                            for pair in [[mention_1, mention_2],
-                                         [mention_2, mention_1]]
-                        ]
+        start += 1 #Make sure no double matches are made
+        '''
+    '''
+    # Checked other code and this was removed. Has to otherwise it won't work
+    full_combos = [
+        pair for mention_1 in cluster_1.mentions
+        for mention_2 in cluster_2.mentions
+        for pair in [[mention_1, mention_2],
+                     [mention_2, mention_1]]
+    ]
 
-                        valid = [
-                            True for pair in full_combos
-                            if pair in mention_pairs
-                        ]
-                        if len(valid) > 0:
-                            pairs.append((cluster_1, cluster_2))
+    valid = [
+        True for pair in full_combos
+        if pair in mention_pairs
+    ]
+    if len(valid) > 0:
+        pairs.append((cluster_1, cluster_2))
+    '''
 
     print('Number of generated cluster pairs = {}'.format(len(pairs)))
     logging.info('Number of generated cluster pairs = {}'.format(len(pairs)))
@@ -1348,16 +1386,23 @@ def cluster_pair_to_mention_pair(pair):
     :param pair: a cluster pair (tuple of two Cluster objects)
     :return: a list contains tuples of Mention object pairs (EventMention/EntityMention)
     '''
-    mention_pairs = []
+    from itertools import product
+
+    #mention_pairs = []
     cluster_1 = pair[0]
     cluster_2 = pair[1]
 
     c1_mentions = cluster_1.mentions.values()
     c2_mentions = cluster_2.mentions.values()
 
+    mention_pairs = list(product(c1_mentions, c2_mentions))
+
+    '''
     for mention_1 in c1_mentions:
         for mention_2 in c2_mentions:
             mention_pairs.append((mention_1, mention_2))
+    '''
+
 
     return mention_pairs
 
@@ -1443,7 +1488,7 @@ def get_batches(mention_pairs, batch_size):
     return batches
 
 
-def key_with_max_val(d):
+def  key_with_max_val(d):
     """ a) creates a list of the dict's keys and values;
         b) returns the key with the max value and the max value"""
     v = list(d.values())  #scores
@@ -1518,17 +1563,13 @@ def merge_clusters(pair_to_merge, clusters, other_clusters, is_event, model,
                                 is_event)
 
     new_pairs = []
-    subset_pairs = [
-        pair for pair in valid_pairs for item in pair
-        if item in new_cluster.mentions
-    ]
-    for cluster in clusters:
-        matches = [
-            pair for pair in subset_pairs for item in pair
-            if item in cluster.mentions
-        ]
-        if cluster != new_cluster and len(matches) > 0:
-            new_pairs.append((cluster, new_cluster))
+
+
+    #for cluster in clusters:
+    for i in range(len(clusters)-1): #do not create a cluster with itself
+
+    #if cluster != new_cluster:
+        new_pairs.append((clusters[i], new_cluster))
 
     # create scores for the new pairs
     for pair in new_pairs:
@@ -1758,6 +1799,7 @@ def test_models(test_set, cd_event_model, cd_entity_model, device, config_dict,
                                                 topic.docs,
                                                 is_event=True,
                                                 requires_grad=False)
+
             create_mention_span_representations(entity_mentions,
                                                 cd_entity_model,
                                                 device,
@@ -1765,19 +1807,18 @@ def test_models(test_set, cd_event_model, cd_entity_model, device, config_dict,
                                                 is_event=False,
                                                 requires_grad=False)
 
+
             print('number of event mentions : {}'.format(len(event_mentions)))
-            print('number of entity mentions : {}'.format(
-                len(entity_mentions)))
+            print('number of entity mentions : {}'.format(len(entity_mentions)))
             logging.info('number of event mentions : {}'.format(
                 len(event_mentions)))
-            logging.info('number of entity mentions : {}'.format(
-                len(entity_mentions)))
+            logging.info('number of entity mentions : {}'.format(len(entity_mentions)))
             topic.event_mentions = event_mentions
             topic.entity_mentions = entity_mentions
 
             # initialize within-document entity clusters with the output of within-document system
-            wd_entity_clusters = init_entity_wd_clusters(
-                entity_mentions, doc_to_entity_mentions)
+
+            wd_entity_clusters = init_entity_wd_clusters(entity_mentions, doc_to_entity_mentions)
 
             topic_entity_clusters = []
             for doc_id, clusters in wd_entity_clusters.items():
@@ -1787,18 +1828,20 @@ def test_models(test_set, cd_event_model, cd_entity_model, device, config_dict,
             topic_event_clusters = init_cd(event_mentions, is_event=True)
 
             # init cluster representation
+
             update_lexical_vectors(topic_entity_clusters,
                                    cd_entity_model,
                                    device,
                                    is_event=False,
                                    requires_grad=False)
+
             update_lexical_vectors(topic_event_clusters,
                                    cd_event_model,
                                    device,
                                    is_event=True,
                                    requires_grad=False)
 
-            entity_th = config_dict["entity_merge_threshold"]
+            #entity_th = config_dict["entity_merge_threshold"]
             event_th = config_dict["event_merge_threshold"]
 
             for i in range(1, config_dict["merge_iters"] + 1):
@@ -1806,6 +1849,7 @@ def test_models(test_set, cd_event_model, cd_entity_model, device, config_dict,
                 logging.info('Iteration number {}'.format(i))
 
                 # Merge entities
+                '''
                 print('Merge entity clusters...')
                 logging.info('Merge entity clusters...')
                 test_model(clusters=topic_entity_clusters,
@@ -1821,6 +1865,7 @@ def test_models(test_set, cd_event_model, cd_entity_model, device, config_dict,
                            use_args_feats=config_dict["use_args_feats"],
                            use_binary_feats=config_dict["use_binary_feats"],
                            valid_pairs=valid_pairs)
+                '''
                 # Merge events
                 print('Merge event clusters...')
                 logging.info('Merge event clusters...')
@@ -1843,26 +1888,29 @@ def test_models(test_set, cd_event_model, cd_entity_model, device, config_dict,
                 is_event=True,
                 is_gold=config_dict["test_use_gold_mentions"],
                 intersect_with_gold=True)
+            '''
             set_coref_chain_to_mentions(
                 topic_entity_clusters,
                 is_event=False,
                 is_gold=config_dict["test_use_gold_mentions"],
                 intersect_with_gold=True)
+            '''
 
             if write_clusters:
                 # Save for analysis
                 all_event_clusters.extend(topic_event_clusters)
-                all_entity_clusters.extend(topic_entity_clusters)
+                #all_entity_clusters.extend(topic_entity_clusters)
 
-                with open(os.path.join(out_dir, 'entity_clusters.txt'),
-                          'a') as entity_file_obj:
-                    write_clusters_to_file(topic_entity_clusters,
-                                           entity_file_obj)
-                    entity_errors.extend(
-                        collect_errors(topic_entity_clusters,
-                                       topic_event_clusters,
-                                       topic.docs,
-                                       is_event=False))
+
+                #with open(os.path.join(out_dir, 'entity_clusters.txt'),
+                #          'a') as entity_file_obj:
+                #    write_clusters_to_file(topic_entity_clusters,
+                #                           entity_file_obj)
+                #    entity_errors.extend(
+                #        collect_errors(topic_entity_clusters,
+                #                       topic_event_clusters,
+                #                       topic.docs,
+                #                       is_event=False))
 
                 with open(os.path.join(out_dir, 'event_clusters.txt'),
                           'a') as event_file_obj:
@@ -1876,19 +1924,16 @@ def test_models(test_set, cd_event_model, cd_entity_model, device, config_dict,
 
         if write_clusters:
             write_event_coref_results(test_set, out_dir, config_dict)
-            write_entity_coref_results(test_set, out_dir, config_dict)
+            #write_entity_coref_results(test_set, out_dir, config_dict)
             sample_errors(event_errors, os.path.join(out_dir, 'event_errors'))
-            sample_errors(entity_errors, os.path.join(out_dir,
-                                                      'entity_errors'))
+            #sample_errors(entity_errors, os.path.join(out_dir, 'entity_errors'))
 
     if analyze_scores:
         # Save mention representations
         save_mention_representations(all_event_clusters,
                                      out_dir,
                                      is_event=True)
-        save_mention_representations(all_entity_clusters,
-                                     out_dir,
-                                     is_event=False)
+        #save_mention_representations(all_entity_clusters, out_dir, is_event=False)
 
         # Save topics for analysis
         with open(os.path.join(out_dir, 'test_topics'), 'wb') as f:
@@ -1909,6 +1954,7 @@ def test_models(test_set, cd_event_model, cd_entity_model, device, config_dict,
         event_r, event_p, event_b3_f1 = bcubed(event_gold_lst,
                                                event_predicted_lst)
 
+        '''
         entity_predicted_lst = [
             entity.cd_coref_chain for entity in all_entity_mentions
         ]
@@ -1922,13 +1968,13 @@ def test_models(test_set, cd_event_model, cd_entity_model, device, config_dict,
         entity_gold_lst = [labels_mapping[label] for label in true_labels]
         entity_r, entity_p, entity_b3_f1 = bcubed(entity_gold_lst,
                                                   entity_predicted_lst)
-
-        return event_b3_f1, entity_b3_f1
+        '''
+        return event_b3_f1 #, entity_b3_f1
 
     else:
         print('Using predicted mentions, can not calculate CoNLL F1')
         logging.info('Using predicted mentions, can not calculate CoNLL F1')
-        return 0, 0
+        return 0 #, 0
 
 
 def init_clusters_with_lemma_baseline(mentions, is_event):

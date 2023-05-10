@@ -322,7 +322,7 @@ def train_and_merge(clusters, other_clusters, model, optimizer, loss, device,
     '''
     This function trains event/entity and then uses agglomerative clustering algorithm that
     merges event/entity clusters
-    :param clusters: current event/entity clusters
+   y :param clusters: current event/entit clusters
     :param other_clusters: should be the event current clusters if clusters = entity clusters
     and vice versa.
     :param model: event/entity model (according to clusters parameter)

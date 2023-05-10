@@ -1,9 +1,9 @@
 {
-  "train_text_file":"data/interim/custom/ECB_Train_corpus.txt",
+  "train_text_file":"data/new_data/dataset_corpus.txt",
   "dev_text_file":"data/interim/custom/ECB_Dev_corpus.txt",
   "test_text_file":"data/interim/custom/ECB_Test_corpus.txt",
 
-  "train_event_mentions":"data/interim/custom/ECB_Train_Event_gold_mentions.json",
+  "train_event_mentions":"data/new_data/dataset_event_mentions.json",
   "dev_event_mentions":"data/interim/custom/ECB_Dev_Event_gold_mentions.json",
   "test_event_mentions":"data/interim/custom/ECB_Test_Event_gold_mentions.json",
 
@@ -22,7 +22,9 @@
   "relaxed_match_with_gold_mention": false,
 
   "load_predicted_mentions": false,
-  "load_elmo": false,
+  "load_elmo": true,
+  "options_file": "data/elmo_files/elmo_options.json",
+  "weight_file": "data/elmo_files/elmo_weights.hdf5",
   "corpus" : "FCC",
 
   "cd2cr_train" : "data/raw/cd2cr/train.conll",

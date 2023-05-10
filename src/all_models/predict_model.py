@@ -28,6 +28,10 @@ parser.add_argument('--out_dir',
                     type=str,
                     help=' The directory to the output folder')
 
+parser.add_argument('--model_config_path',
+                    type=str,
+                    help=' The path configuration of the train/ model json file')
+
 args = parser.parse_args()
 
 out_dir = args.out_dir
@@ -41,6 +45,10 @@ logging.basicConfig(filename=os.path.join(args.out_dir, "test_log.txt"),
 # Loads a json configuration file (test_config.json)
 with open(args.config_path, 'r') as js_file:
     config_dict = json.load(js_file)
+
+# Loads a json configuration file (test_config.json)
+with open(args.model_config_path, 'r') as js_file:
+    model_config_dict = json.load(js_file)
 
 # Saves a json configuration file (test_config.json) in the experiment folder
 with open(os.path.join(args.out_dir, 'test_config.json'), "w") as js_file:
@@ -150,8 +158,8 @@ def test_model(test_set):
     '''
     device = torch.device("cuda:0" if args.use_cuda else "cpu")
 
-    cd_event_model = load_check_point(config_dict["cd_event_model_path"])
-    cd_entity_model = load_check_point(config_dict["cd_entity_model_path"])
+    cd_event_model = load_check_point(config_dict["cd_event_model_path"], model_config_dict)
+    cd_entity_model = load_check_point(config_dict["cd_entity_model_path"], model_config_dict)
 
     cd_event_model.to(device)
     cd_entity_model.to(device)
@@ -172,10 +180,12 @@ def test_model(test_set):
     # valid_pairs = [[mention.mention_id for mention in pair] for pair in pairs]
     # with open("valid_pairs", 'wb') as fp:
     #     cPickle.dump(valid_pairs, fp)
-    with open("valid_pairs", 'rb') as fp:
-        valid_pairs = cPickle.load(fp)
+    #with open("valid_pairs", 'rb') as fp:
+    #    valid_pairs = cPickle.load(fp)
 
-    _, _ = test_models(test_set,
+    valid_pairs = None #this is needed otherwise it won't work
+
+    _ = test_models(test_set,
                        cd_event_model,
                        cd_entity_model,
                        device,

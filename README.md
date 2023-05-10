@@ -24,6 +24,9 @@ The model was trained and evaluated on the ECB+ corpus.
 * [seaborn](https://seaborn.pydata.org/) 0.9.0
 * [AllenNLP](https://allennlp.org/) 0.5.1
 
+## Inference
+'python src/all_models/predict_model.py --config_path test_config.json --out_dir output --model_config train_config.json'
+
 ## Testing Instructions
 * Download pretrained event and entity models and pre-processed data for the ECB+ corpus at *https://drive.google.com/open?id=197jYq5lioefABWP11cr4hy4Ohh1HMPGK*
     * Configure the model and test set paths in the configuration file test_config.json accordingly.
