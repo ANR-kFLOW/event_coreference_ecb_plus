@@ -1051,7 +1051,7 @@ def generate_cluster_pairs(clusters, is_train, mention_pairs):
 
     #for (i, cluster_1) in tqdm(enumerate(clusters)):
 
-    pairs = combinations(clusters[:200], 2) #limit it to the first 200
+    pairs = combinations(clusters, 2) #limit it to the first 200
     del clusters
     print("Pairs generated")
     pairs = list(pairs)
@@ -1900,6 +1900,7 @@ def test_models(test_set, cd_event_model, cd_entity_model, device, config_dict,
                 # Save for analysis
                 all_event_clusters.extend(topic_event_clusters)
                 #all_entity_clusters.extend(topic_entity_clusters)
+                print(topic_event_clusters)
 
 
                 #with open(os.path.join(out_dir, 'entity_clusters.txt'),

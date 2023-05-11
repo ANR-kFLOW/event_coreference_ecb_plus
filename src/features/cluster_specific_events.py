@@ -3,11 +3,13 @@
 # Keep in mind that an article could belong to 2 events so the system may run multiple times in that case
 from ast import literal_eval
 import pandas as pd
-from src.data.convert_format import generate_corpus, generate_mention_json
-from src.features.build_features_new import start_script
-from src.features import build_features_new
 
-specific_event = 'http://www.wikidata.org/entity/Q104218016'
+from convert_format import generate_corpus, generate_mention_json
+import build_features_new
+
+
+
+specific_event = 'http://www.wikidata.org/entity/Q113449657'
 event_name = specific_event.split('/')[-1]
 
 if __name__ == '__main__':
