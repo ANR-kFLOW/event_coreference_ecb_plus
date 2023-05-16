@@ -6,11 +6,11 @@ import pandas as pd
 
 from convert_format import generate_corpus, generate_mention_json
 import build_features_new
+import os
 
 
 
-specific_event = 'http://www.wikidata.org/entity/Q113449657'
-event_name = specific_event.split('/')[-1]
+specific_event = None
 
 if __name__ == '__main__':
 
@@ -18,18 +18,48 @@ if __name__ == '__main__':
     data.Event = data.Event.apply(literal_eval)
     data = data.explode('Event')
 
-    data = data[data['Event'] == specific_event]
+    import os
 
-    corpus_output = f'generated_data/corpora/{event_name}_corpus.txt'
-    mention_output = f'generated_data/mentions/{event_name}_event_mentions.json'
-    dataset_output = f'generated_data/datasets/{event_name}_dataset'
+    if not os.path.exists('generated_data/corpora/'):
+        os.makedirs('generated_data/corpora/')
 
-    generate_corpus(data, corpus_output) #get the first two files
-    generate_mention_json(data, mention_output)
+    if not os.path.exists('generated_data/mentions/'):
+        os.makedirs('generated_data/mentions/')
 
-    build_features_new.start_script('build_features_config.json', corpus_output, mention_output, dataset_output)
+    if not os.path.exists('generated_data/datasets/'):
+        os.makedirs('generated_data/datasets/')
 
+    if specific_event != None:
 
+        event_name = specific_event.split('/')[-1]
+
+        data = data[data['Event'] == specific_event]
+
+        corpus_output = f'generated_data/corpora/{event_name}_corpus.txt'
+        mention_output = f'generated_data/mentions/{event_name}_event_mentions.json'
+        dataset_output = f'generated_data/datasets/{event_name}_dataset'
+
+        generate_corpus(data, corpus_output) #get the first two files
+        generate_mention_json(data, mention_output)
+
+        build_features_new.start_script('build_features_config.json', corpus_output, mention_output, dataset_output)
+
+    else: #Build the dataset for all events seperatly
+
+        for event in data['Event'].unique():
+            print(event)
+
+            sub_data = data[data['Event'] == event]
+            event_name = event.split('/')[-1]
+
+            corpus_output = f'generated_data/corpora/{event_name}_corpus.txt'
+            mention_output = f'generated_data/mentions/{event_name}_event_mentions.json'
+            dataset_output = f'generated_data/datasets/{event_name}_dataset'
+
+            generate_corpus(sub_data, corpus_output)  # get the first two files
+            generate_mention_json(sub_data, mention_output)
+
+            build_features_new.start_script('build_features_config.json', corpus_output, mention_output, dataset_output)
 
 
 

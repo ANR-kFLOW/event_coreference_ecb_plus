@@ -34,6 +34,7 @@ parser.add_argument('--model_config_path',
 
 args = parser.parse_args()
 
+global out_dir
 out_dir = args.out_dir
 if not os.path.exists(out_dir):
     os.makedirs(out_dir)
@@ -151,7 +152,7 @@ def run_conll_scorer():
     scores_file.close()
 
 
-def test_model(test_set):
+def test_model(test_set, datasets= None, multiple=False):
     '''
     Loads trained event and entity models and test them on the test set
     :param test_set: a Corpus object, represents the test split
@@ -165,53 +166,98 @@ def test_model(test_set):
     cd_entity_model.to(device)
 
     doc_to_entity_mentions = load_entity_wd_clusters(config_dict)
-    # with open(config_dict["event_encoder_model"], 'rb') as f:
-    #     params = torch.load(f)
-    #     encoder_model = EncoderCosineRanker(device)
-    #     encoder_model.load_state_dict(params)
-    #     encoder_model = encoder_model.to(device).eval()
-    #     encoder_model.requires_grad = False
-    # with open(config_dict["test_path_topics"], 'rb') as f:
-    #     encoding_data = cPickle.load(f)
 
-    # docs = dataset_to_docs(encoding_data)
-    # pairs = nn_generate_pairs(docs, encoder_model, k=5, events=True)
-    # pairs = pairs | nn_generate_pairs(docs, encoder_model, k=5, events=False)
-    # valid_pairs = [[mention.mention_id for mention in pair] for pair in pairs]
-    # with open("valid_pairs", 'wb') as fp:
-    #     cPickle.dump(valid_pairs, fp)
-    #with open("valid_pairs", 'rb') as fp:
-    #    valid_pairs = cPickle.load(fp)
+    if multiple:
 
-    valid_pairs = None #this is needed otherwise it won't work
+        for event_name in datasets:
 
-    _ = test_models(test_set,
-                       cd_event_model,
-                       cd_entity_model,
-                       device,
-                       config_dict,
-                       write_clusters=True,
-                       out_dir=args.out_dir,
-                       doc_to_entity_mentions=doc_to_entity_mentions,
-                       analyze_scores=True,
-                       valid_pairs=valid_pairs)
+            global out_dir
+            out_dir = os.join(args.out_dir, event_name)
+            args.out_dir = out_dir
 
-    run_conll_scorer()
+            if not os.path.exists(out_dir):
+                os.makedirs(out_dir)
+
+            print('Loading test data...')
+            logging.info('Loading test data...')
+            with open(os.join(config_dict["path_to_multiple_datasets"], event_name), 'rb') as f:
+                test_data = cPickle.load(f)
+
+            valid_pairs = None  # this is needed otherwise it won't work
+
+            _ = test_models(test_set,
+                            cd_event_model,
+                            cd_entity_model,
+                            device,
+                            config_dict,
+                            write_clusters=True,
+                            out_dir=args.out_dir,
+                            doc_to_entity_mentions=doc_to_entity_mentions,
+                            analyze_scores=True,
+                            valid_pairs=valid_pairs)
+
+    else:
+
+        # with open(config_dict["event_encoder_model"], 'rb') as f:
+        #     params = torch.load(f)
+        #     encoder_model = EncoderCosineRanker(device)
+        #     encoder_model.load_state_dict(params)
+        #     encoder_model = encoder_model.to(device).eval()
+        #     encoder_model.requires_grad = False
+        # with open(config_dict["test_path_topics"], 'rb') as f:
+        #     encoding_data = cPickle.load(f)
+
+        # docs = dataset_to_docs(encoding_data)
+        # pairs = nn_generate_pairs(docs, encoder_model, k=5, events=True)
+        # pairs = pairs | nn_generate_pairs(docs, encoder_model, k=5, events=False)
+        # valid_pairs = [[mention.mention_id for mention in pair] for pair in pairs]
+        # with open("valid_pairs", 'wb') as fp:
+        #     cPickle.dump(valid_pairs, fp)
+        #with open("valid_pairs", 'rb') as fp:
+        #    valid_pairs = cPickle.load(fp)
+
+        valid_pairs = None #this is needed otherwise it won't work
+
+        _ = test_models(test_set,
+                           cd_event_model,
+                           cd_entity_model,
+                           device,
+                           config_dict,
+                           write_clusters=True,
+                           out_dir=args.out_dir,
+                           doc_to_entity_mentions=doc_to_entity_mentions,
+                           analyze_scores=True,
+                           valid_pairs=valid_pairs)
+
+        #run_conll_scorer()
 
 
 def main():
     '''
     This script loads the trained event and entity models and test them on the test set
     '''
-    print('Loading test data...')
-    logging.info('Loading test data...')
-    with open(config_dict["test_path"], 'rb') as f:
-        test_data = cPickle.load(f)
 
-    print('Test data have been loaded.')
-    logging.info('Test data have been loaded.')
+    if config_dict['process_multiple_datasets']:
+        print("Processing multiple datasets...")
+        logging.info('Processing multiple datasets...')
 
-    test_model(test_data)
+        datasets = os.listdir('Data/cluster_data')
+
+        test_model(None, datasets = datasets, multiple=True)
+
+    else:
+        print("loading single dataset...")
+        logging.info('loading single dataset...')
+
+        print('Loading test data...')
+        logging.info('Loading test data...')
+        with open(config_dict["test_path"], 'rb') as f:
+            test_data = cPickle.load(f)
+
+        print('Test data have been loaded.')
+        logging.info('Test data have been loaded.')
+
+        test_model(test_data)
 
 
 if __name__ == '__main__':

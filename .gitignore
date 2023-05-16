@@ -13,3 +13,5 @@ runs/*
 auto-save-list
 tramp
 .\#*
+/data/
+/generated_data/
