@@ -1923,37 +1923,43 @@ def test_models(test_set, cd_event_model, cd_entity_model, device, config_dict,
                                        topic.docs,
                                        is_event=True))
 
-        if write_clusters:
-            write_event_coref_results(test_set, out_dir, config_dict)
-            #write_entity_coref_results(test_set, out_dir, config_dict)
-            sample_errors(event_errors, os.path.join(out_dir, 'event_errors'))
-            #sample_errors(entity_errors, os.path.join(out_dir, 'entity_errors'))
+        try:
+            if write_clusters:
+                write_event_coref_results(test_set, out_dir, config_dict)
+                #write_entity_coref_results(test_set, out_dir, config_dict)
+                sample_errors(event_errors, os.path.join(out_dir, 'event_errors'))
+                #sample_errors(entity_errors, os.path.join(out_dir, 'entity_errors'))
+        except:
+            print("Writing clusters failed")
 
-    if analyze_scores:
-        # Save mention representations
-        save_mention_representations(all_event_clusters,
-                                     out_dir,
-                                     is_event=True)
-        #save_mention_representations(all_entity_clusters, out_dir, is_event=False)
+    try:
+        if analyze_scores:
+            # Save mention representations
+            save_mention_representations(all_event_clusters,
+                                         out_dir,
+                                         is_event=True)
+            #save_mention_representations(all_entity_clusters, out_dir, is_event=False)
 
-        # Save topics for analysis
-        with open(os.path.join(out_dir, 'test_topics'), 'wb') as f:
-            cPickle.dump(topics, f)
+            # Save topics for analysis
+            with open(os.path.join(out_dir, 'test_topics'), 'wb') as f:
+                cPickle.dump(topics, f)
 
-    if config_dict["test_use_gold_mentions"]:
-        event_predicted_lst = [
-            event.cd_coref_chain for event in all_event_mentions
-        ]
-        true_labels = [event.gold_tag for event in all_event_mentions]
-        true_clusters_set = set(true_labels)
+        if config_dict["test_use_gold_mentions"]:
+            event_predicted_lst = [
+                event.cd_coref_chain for event in all_event_mentions
+            ]
+            true_labels = [event.gold_tag for event in all_event_mentions]
+            true_clusters_set = set(true_labels)
 
-        labels_mapping = {}
-        for label in true_clusters_set:
-            labels_mapping[label] = len(labels_mapping)
+            labels_mapping = {}
+            for label in true_clusters_set:
+                labels_mapping[label] = len(labels_mapping)
 
-        event_gold_lst = [labels_mapping[label] for label in true_labels]
-        event_r, event_p, event_b3_f1 = bcubed(event_gold_lst,
-                                               event_predicted_lst)
+            event_gold_lst = [labels_mapping[label] for label in true_labels]
+            event_r, event_p, event_b3_f1 = bcubed(event_gold_lst,
+                                                   event_predicted_lst)
+    except:
+        print("Something went wrong here")
 
         '''
         entity_predicted_lst = [

@@ -1,11 +1,11 @@
-{ "test_path": "data/new_data/new_dataset",
+{ "test_path": "generated_data/datasets/Q113449657_dataset",
   "test_path_topics" : "feature_sets/all_sents/test_data",
   
   "cd_event_model_path": "trained_models_and_data/model_weights.pth",
   "cd_entity_model_path": "trained_models_and_data/model_weights_entity.pth",
 
   "gpu_num": 0,
-  "event_merge_threshold": 0.5,
+  "event_merge_threshold": 0.95,
   "entity_merge_threshold": 0.5,
   "use_elmo": true,
   "use_args_feats": true,
@@ -25,7 +25,7 @@
   "event_gold_file_path": "data/gold/cybulska_gold/CD_test_event_mention_based.key_conll",
   "entity_gold_file_path": "data/gold/cybulska_gold/CD_test_entity_mention_based.key_conll",
 
-  "process_multiple_datasets": true,
+  "process_multiple_datasets": false,
   "path_to_multiple_datasets": "data/datasets"
   
 }

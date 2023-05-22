@@ -34,10 +34,10 @@ parser.add_argument('--model_config_path',
 
 args = parser.parse_args()
 
-global out_dir
-out_dir = args.out_dir
-if not os.path.exists(out_dir):
-    os.makedirs(out_dir)
+
+base_out_dir = args.out_dir
+if not os.path.exists(base_out_dir):
+    os.makedirs(base_out_dir)
 
 logging.basicConfig(filename=os.path.join(args.out_dir, "test_log.txt"),
                     level=logging.INFO,
@@ -157,7 +157,8 @@ def test_model(test_set, datasets= None, multiple=False):
     Loads trained event and entity models and test them on the test set
     :param test_set: a Corpus object, represents the test split
     '''
-    device = torch.device("cuda:0" if args.use_cuda else "cpu")
+    gpu_num = str(config_dict["gpu_num"])
+    device = torch.device(f"cuda:{gpu_num}" if args.use_cuda else "cpu")
 
     cd_event_model = load_check_point(config_dict["cd_event_model_path"], model_config_dict)
     cd_entity_model = load_check_point(config_dict["cd_entity_model_path"], model_config_dict)
@@ -170,18 +171,19 @@ def test_model(test_set, datasets= None, multiple=False):
     if multiple:
 
         for event_name in datasets:
+            print(f'Processing {event_name}')
+            logging.info(f'Processing {event_name}')
 
-            global out_dir
-            out_dir = os.join(args.out_dir, event_name)
-            args.out_dir = out_dir
 
-            if not os.path.exists(out_dir):
-                os.makedirs(out_dir)
+            args.out_dir = os.path.join(base_out_dir, event_name)
+
+            if not os.path.exists(args.out_dir):
+                os.makedirs(args.out_dir)
 
             print('Loading test data...')
             logging.info('Loading test data...')
-            with open(os.join(config_dict["path_to_multiple_datasets"], event_name), 'rb') as f:
-                test_data = cPickle.load(f)
+            with open(os.path.join(config_dict["path_to_multiple_datasets"], event_name), 'rb') as f:
+                test_set = cPickle.load(f)
 
             valid_pairs = None  # this is needed otherwise it won't work
 
@@ -241,7 +243,7 @@ def main():
         print("Processing multiple datasets...")
         logging.info('Processing multiple datasets...')
 
-        datasets = os.listdir('Data/cluster_data')
+        datasets = os.listdir(config_dict["path_to_multiple_datasets"])
 
         test_model(None, datasets = datasets, multiple=True)
 
