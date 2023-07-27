@@ -24,8 +24,22 @@ The model was trained and evaluated on the ECB+ corpus.
 * [seaborn](https://seaborn.pydata.org/) 0.9.0
 * [AllenNLP](https://allennlp.org/) 0.5.1
 
+## Setting up the environment
+To avoid errors, an export of the used environment is made. Please create an evironment using the "coref_env.yml" file.
+
+## Creating the data
+Change the path of the dataset containing the events, and extracted sub-events in the "convert_format.py" file, and run the script.
+This will generate the necessary files for each event present in the dataset.
+
 ## Inference
-'python src/all_models/predict_model.py --config_path test_config.json --out_dir output --model_config train_config.json'
+To run inference execute the following command:
+
+python src/all_models/predict_model.py --config_path test_config.json --out_dir output --model_config train_config.json
+
+This will create a folder "output" with all the cluster files
+
+---
+Original README file, can be ignored if using this model for creating the narrative graph.
 
 ## Testing Instructions
 * Download pretrained event and entity models and pre-processed data for the ECB+ corpus at *https://drive.google.com/open?id=197jYq5lioefABWP11cr4hy4Ohh1HMPGK*
