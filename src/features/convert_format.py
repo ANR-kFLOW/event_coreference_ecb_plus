@@ -76,7 +76,7 @@ def generate_mention_json(dataset, output_path = 'data/new_data/dataset_event_me
 
 if __name__ == '__main__':
     dataset = pd.read_csv('data/final_data_with_predictions.csv')
-    #generate_corpus(dataset)
+    generate_corpus(dataset)
     generate_mention_json(dataset)
 
 

@@ -28,18 +28,24 @@ The model was trained and evaluated on the ECB+ corpus.
 To avoid errors, an export of the used environment is made. Please create an evironment using the "coref_env.yml" file.
 
 ## Creating the data
-Change the path of the dataset containing the events, and extracted sub-events in the "convert_format.py" file, and run the script.
-This will generate the necessary files for each event present in the dataset.
+Change the path of the dataset containing the events, and extracted sub-events in the "cluster_specific_events.py" file, and run the script.
+This will generate the necessary files for each event present in the dataset, and saves them at: 'generated_data/datasets/'.
 
 ## Inference
 To run inference execute the following command:
-
+```
 python src/all_models/predict_model.py --config_path test_config.json --out_dir output --model_config train_config.json
+```
 
 This will create a folder "output" with all the cluster files
 
----
+The config file 'test_config.json' can be altered to:
+- Change the path to the saved model (cd_event_model_path).
+- Change the path to the generated datasets (path_to_multiple_datasets)
+- Change the merge threshold
+
 Original README file, can be ignored if using this model for creating the narrative graph.
+---
 
 ## Testing Instructions
 * Download pretrained event and entity models and pre-processed data for the ECB+ corpus at *https://drive.google.com/open?id=197jYq5lioefABWP11cr4hy4Ohh1HMPGK*
